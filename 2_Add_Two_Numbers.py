@@ -37,6 +37,7 @@ class Solution(object):
         # If sum value > 10, accumulate add 1 to next loop
         carry = 0
         while l1 or l2 or carry:
+            v1 = v2 = 0
             if l1:
                 v1 = l1.val
                 l1 = l1.next
