@@ -36,8 +36,8 @@ class Solution(object):
                 l[i], l[n-i-1] = self.swap(l[i], l[n-i-1])
             i += 1
         res = int(''.join(l))
-        # 判断结果是否超过了32bit，其中1bit是符号位
-        if res > 2**31 or res < -2**31:
+        # 判断结果是否超过了32bit，其中1bit是符号位，[-2**31, 2**31)
+        if res >= 2**31 or res < -2**31:
             return 0
         return res
 
