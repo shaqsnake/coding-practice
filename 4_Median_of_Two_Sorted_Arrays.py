@@ -31,7 +31,7 @@ class Solution(object):
         else:
             return nums1[(l-1)/2]
 
-    # O(log(m+n))
+    # O(mlogm+nlogn))
     def findMedianSortedArrays_plus(self, nums1, nums2):
         """
         :type nums1: List[int]
