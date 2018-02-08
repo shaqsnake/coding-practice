@@ -35,10 +35,6 @@ class Solution(object):
         else:
             return min(strs)
 
-def wrapper(func, *args, **kwargs):
-    def wrapped():
-        return func(*args, **kwargs)
-    return wrapped
 
 if __name__ == '__main__':
     strs = ["abc", "abb", "abdd"]
