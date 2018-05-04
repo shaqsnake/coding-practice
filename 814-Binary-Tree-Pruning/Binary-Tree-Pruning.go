@@ -31,25 +31,18 @@ func (n *TreeNode) Insert(val int) *TreeNode {
 }
 
 func walkTree(root *TreeNode) {
-	if root == nil {
-		fmt.Printf("-1 ")
-		return
+	if root != nil {
+		fmt.Printf("%d ", root.Val)
 	}
-	fmt.Printf("%d ", root.Val)
-
 	if root.Left != nil {
 		walkTree(root.Left)
 	}
-
 	if root.Right != nil {
 		walkTree(root.Right)
 	}
-
-	return
 }
 
 func pruneTree(root *TreeNode) *TreeNode {
-	fmt.Println(root.Val)
 	if root.Left != nil {
 		root.Left = pruneTree(root.Left)
 	}
@@ -59,22 +52,20 @@ func pruneTree(root *TreeNode) *TreeNode {
 	}
 
 	if root.Val == 0 && root.Left == nil && root.Right == nil {
-		root = nil
+		root.Val = -1
 	}
 
 	return root
 }
 
 func main() {
-	data := []int{1, 0, 1, -1, 0}
-	var root *TreeNode
-	for i := 0; i < len(data); i++ {
-		root = root.Insert(data[i])
-	}
-	// root := &TreeNode{
-	// 	Val:   1,
-	// 	Left:  &TreeNode{Val: 0},
-	// 	Right: &TreeNode{Val: 1}}
+	// data := []int{1, 0, 1, -1, 0}
+	root := &TreeNode{
+		Val:   1,
+		Left:  &TreeNode{Val: 0},
+		Right: &TreeNode{Val: 1}}
 
 	walkTree(root)
+	fmt.Println()
+	walkTree(pruneTree(root))
 }
