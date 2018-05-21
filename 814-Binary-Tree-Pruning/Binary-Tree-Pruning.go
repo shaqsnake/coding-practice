@@ -18,7 +18,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func (n *TreeNode) Insert(val int) *TreeNode {
+func (n *TreeNode) insert(val int) *TreeNode {
 	if n == nil {
 		return &TreeNode{Val: val}
 	} else if n.Left == nil {
