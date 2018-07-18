@@ -5,7 +5,7 @@ def findRFMax(l):
     stack = Stack()
 
     for i in range(len(l)):
-        while not stack.empty() and l[stack.peek()]< l[i]:
+        while not stack.is_empty() and l[stack.top()]< l[i]:
             # res.append(i)
             # stack.pop()
             res[stack.pop()] = i
