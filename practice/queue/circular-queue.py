@@ -60,6 +60,10 @@ class CircularQueue(object):
         self._tail = newNode
         self._size += 1
 
+    def rotate(self):
+        if self._size > 0:
+            self._tail = self._tail._next 
+
 
 if __name__ == '__main__':
     queue = CircularQueue()
