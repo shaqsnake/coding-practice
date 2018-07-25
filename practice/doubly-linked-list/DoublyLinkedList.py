@@ -8,8 +8,8 @@ class _DoublyLinkedList(object):
             self._next = next
     
     def __init__(self):
-        self._header = _Node(None, None, None)
-        self._tailer = _Node(None, None, None)
+        self._header = self._Node(None, None, None)
+        self._tailer = self._Node(None, None, None)
         self._header._next = self._tailer
         self._tailer._prev = self._header
         self._size = 0
@@ -19,6 +19,14 @@ class _DoublyLinkedList(object):
 
     def is_empty(self):
         return self._size == 0
+
+    def __str__(self):
+        res = ""
+        cur = self._header._next
+        while cur != self._tailer:
+            res += "{}->".format(cur._element)
+            cur = cur._next
+        return res[:-2]
 
     def _insert_between(self, e, predecessor, successor):
         newNode = self._Node(e, predecessor, successor)
