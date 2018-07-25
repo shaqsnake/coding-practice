@@ -1,4 +1,5 @@
 from stack import Stack
+from random import shuffle
 
 def findRFMax(l):
     res = [-1]*len(l)
@@ -15,6 +16,7 @@ def findRFMax(l):
 
 
 if __name__ == '__main__':
-    l = [3, 4, 2, 1, 5, 7, 10]
-    # l = [3, 4, 1, 2, 5, 7, 10]
+    l = [i for i in range(10)]
+    shuffle(l)
+    print(l)
     print(findRFMax(l))
