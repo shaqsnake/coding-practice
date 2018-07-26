@@ -1,4 +1,4 @@
-class _DoublyLinkedList(object):
+class _DoublyLinkedBase(object):
 
     class _Node(object):
         __slots__ = '_element', '_prev', '_next'

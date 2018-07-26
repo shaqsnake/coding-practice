@@ -1,10 +1,10 @@
-from DoublyLinkedList import _DoublyLinkedList
+from DoublyLinkedBase import _DoublyLinkedBase
 
 
 class Empty(Exception):
     pass
 
-class LinkedDeque(_DoublyLinkedList):
+class LinkedDeque(_DoublyLinkedBase):
     """Double-ended queue implementation based on a doubly linked list.
     """
     def first(self):
