@@ -1,6 +1,6 @@
 from DoublyLinkedBase import _DoublyLinkedBase
 
-class PositionalList(_DoublyListBase):
+class PositionalList(_DoublyLinkedBase):
     """A sequential container of elements allowing positional access.
     """
     #------- nested Position class ---------
@@ -86,3 +86,32 @@ class PositionalList(_DoublyListBase):
         old_value = target._element
         target._element = e
         return old_value
+
+def insertion_sort(L):
+    if len(L) <= 1:
+        return L
+    
+    marker = L.first()
+    while marker != L.last():
+        pivot = L.after(marker)
+        pivot_val = pivot.element()
+        if pivot_val > marker.element():
+            marker = pivot
+        else:
+            walker = L.before(marker)
+            while walker != L.first() and L.before(walker).element() > pivot_val:
+                walker = L.before(walker)
+            L.delete(pivot)
+            L.add_before(walker, pivot_val)
+        
+    return L
+
+if __name__ == '__main__':
+    pl = PositionalList()
+    pl.add_first(4)
+    pl.add_first(3)
+    pl.add_last(1)
+    pl.add_last(2)
+    print(pl)
+    insertion_sort(pl)
+    print(pl)
