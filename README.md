@@ -7,3 +7,8 @@
 
 ## 数据结构和算法相关代码
 
+### 算法
+
+|名称|代码|
+|-|-|
+|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/selection-sort/selection-sort.cpp)|
