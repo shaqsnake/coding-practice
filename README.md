@@ -9,6 +9,6 @@
 
 ### 算法
 
-|Algorithm|Code|
+|Algorithms|Code|
 |-|-|
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/selection-sort/selection-sort.cpp)|
