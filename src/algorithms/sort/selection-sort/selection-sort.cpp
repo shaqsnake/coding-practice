@@ -10,21 +10,29 @@ using namespace std;
 //     j = temp;
 // }
 
-vector<int> selectionSort(vector<int> vec) {
-    for (decltype(vec.size()) i = 0; i < vec.size(); i++) {
-        for (decltype(i) j = i; j < vec.size(); j++) {
-            if (vec[i] > vec[j]) {
-                swap(vec[i], vec[j]); // Use stl algothrim swap
+vector<int> selectionSort(vector<int> vec)
+{
+    for (decltype(vec.size()) i = 0; i < vec.size(); ++i)
+    {
+        decltype(i) min = i;
+        for (decltype(i) j = i + 1; j < vec.size(); ++j)
+        {
+            if (vec[min] > vec[j])
+            {
+                min = j;
             }
         }
+        swap(vec[i], vec[min]); // Use stl algothrim swap
     }
     return vec;
 }
 
-int main() {
+int main()
+{
     vector<int> vec(10);
-    generate(vec.begin(), vec.end(), []() { return rand() % 100;});
-    for (const auto &v : selectionSort(vec)) {
+    generate(vec.begin(), vec.end(), []() { return rand() % 100; });
+    for (const auto &v : selectionSort(vec))
+    {
         cout << v << " ";
     }
     cout << endl;
