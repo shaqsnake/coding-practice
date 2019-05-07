@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <ctime>
+#include <cassert>
 
 namespace SortUtils
 {
@@ -22,12 +23,28 @@ void printVector(std::vector<T> &vec)
 }
 
 template <typename T>
+bool isSorted(std::vector<T> vec)
+{
+    for (auto i = 0; i < vec.size(); ++i)
+    {
+        if (vec[i] < vec[i - 1])
+        {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+template <typename T>
 void testSort(const std::string &sortName, void (*sort)(std::vector<T> &), std::vector<T> &vec)
 {
     auto start = clock();
     sort(vec);
     auto end = clock();
     std::cout << sortName << ": " << double(end - start) / CLOCKS_PER_SEC << "s" << std::endl;
+
+    assert(isSorted(vec));
 
     return;
 }
