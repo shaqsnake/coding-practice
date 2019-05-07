@@ -24,7 +24,7 @@ vector<int> selectionSort(vector<int> vec) {
 int main() {
     vector<int> vec(10);
     generate(vec.begin(), vec.end(), []() { return rand() % 100;});
-    for (auto v : selectionSort(vec)) {
+    for (const auto &v : selectionSort(vec)) {
         cout << v << " ";
     }
     cout << endl;
