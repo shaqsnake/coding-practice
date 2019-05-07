@@ -7,7 +7,7 @@
 using namespace std;
 
 template<typename T>
-vector<T>& selectionSort(vector<T> &vec)
+void selectionSort(vector<T> &vec)
 {
     for (decltype(vec.size()) i = 0; i < vec.size(); ++i)
     {
@@ -21,7 +21,7 @@ vector<T>& selectionSort(vector<T> &vec)
         }
         swap(vec[i], vec[min]); // Use stl algothrim swap
     }
-    return vec;
+    return;
 }
 
 
@@ -31,16 +31,20 @@ int main()
     int n = 10000;
     vector<int> vec(n);
     generate(vec.begin(), vec.end(), []() { return rand() % 10000; });
-    // SortUtils::printVector(selectionSort(vec));
+    // selectionSort(vec);
+    // SortUtils::printVector(vec);
     SortUtils::testSort("Selection Sort", selectionSort, vec);
 
     vector<double> vec2 = {9.9, 8.8, 7.7, 1.1, 4.4, 5.5};
-    SortUtils::printVector(selectionSort(vec2));
+    selectionSort(vec2);
+    SortUtils::printVector(vec2);
 
     vector<string> vec3 = {"D", "C", "B", "A"};
-    SortUtils::printVector(selectionSort(vec3));
+    selectionSort(vec3);
+    SortUtils::printVector(vec3);
 
     vector<Student> vec4 = {{"A", 60}, {"B", 55}, {"C", 60}, {"D", 88}};
-    SortUtils::printVector(selectionSort(vec4));
+    selectionSort(vec4);
+    SortUtils::printVector(vec4);
     return 0;
 }

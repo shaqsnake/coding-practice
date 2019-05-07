@@ -11,7 +11,7 @@ namespace SortUtils
 template <typename T>
 void printVector(std::vector<T> &vec)
 {
-    std::cout << "Sorted Vector: ";
+    std::cout << "Sorted result: ";
     for (const auto &v : vec)
     {
         std::cout << v << " ";
@@ -22,7 +22,7 @@ void printVector(std::vector<T> &vec)
 }
 
 template <typename T>
-void testSort(const std::string &sortName, std::vector<T> &(*sort)(std::vector<T> &), std::vector<T> &vec)
+void testSort(const std::string &sortName, void (*sort)(std::vector<T> &), std::vector<T> &vec)
 {
     auto start = clock();
     sort(vec);
