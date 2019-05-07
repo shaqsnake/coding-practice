@@ -6,7 +6,7 @@
 
 using namespace std;
 
-template<typename T>
+template <typename T>
 void selectionSort(vector<T> &vec)
 {
     for (decltype(vec.size()) i = 0; i < vec.size(); ++i)
@@ -23,8 +23,6 @@ void selectionSort(vector<T> &vec)
     }
     return;
 }
-
-
 
 int main()
 {
