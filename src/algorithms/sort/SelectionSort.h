@@ -1,5 +1,5 @@
-#ifndef SORT_MYSORT_H
-#define SORT_MYSORT_H
+#ifndef SORT_SELECTIONSORT_H
+#define SORT_SELECTIONSORT_H
 
 namespace MySort
 {
@@ -22,22 +22,5 @@ std::vector<T> selectionSort(std::vector<T> vec)
     return vec;
 }
 
-template <typename T>
-std::vector<T> insertionSort(std::vector<T> vec)
-{
-    for (int i = 1; i < vec.size(); ++i)
-    {
-        T tmp = vec[i];
-        int j;
-        for (j = i; j > 0 && tmp < vec[j - 1]; --j)
-        {
-            vec[j] = vec[j - 1];
-        }
-        vec[j] = tmp;
-    }
-
-    return vec;
-}
-
 };     // namespace MySort
-#endif //SORT_MYSORT_H
+#endif //SORT_SELECTIONSORT_H
