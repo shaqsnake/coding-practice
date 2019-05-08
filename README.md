@@ -11,4 +11,5 @@
 
 |Algorithms|Code|
 |-|-|
-|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/selection-sort/selection-sort.cpp)|
+|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/MySort.h)|
+|Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/MySort.h)|
