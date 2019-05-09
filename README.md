@@ -7,12 +7,13 @@
 |Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)|
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)|
 |Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)|
+|Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)|
 
 ## Leetcode
 
 |Problems|Solutions|
 |-|-|
-|[1. Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/shaqsnake/leetcode/blob/master/001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/leetcode/blob/master/001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/leetcode/blob/master/001-Two-Sum/solution.go)|
+|[1. Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|
 
 ## Topcoder
 |Problems|Solutions|
