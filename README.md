@@ -11,5 +11,6 @@
 
 |Algorithms|Code|
 |-|-|
-|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/MySort.h#L7-L23)|
-|Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/MySort.h#L25-L43)|
+|Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)|
+|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)|
+|Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)|
