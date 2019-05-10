@@ -8,6 +8,7 @@
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)|
 |Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)|
 |Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)|
+|Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|
 
 ## Leetcode
 
