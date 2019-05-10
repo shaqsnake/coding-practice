@@ -15,13 +15,11 @@ std::vector<T> merge(std::vector<T> left, std::vector<T> right)
     {
         if (*l_begin < *r_begin)
         {
-            res.push_back(*l_begin);
-            ++l_begin;
+            res.push_back(*l_begin++);
         }
         else
         {
-            res.push_back(*r_begin);
-            ++r_begin;
+            res.push_back(*r_begin++);
         }
     }
 
