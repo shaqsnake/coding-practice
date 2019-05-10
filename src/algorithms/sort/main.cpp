@@ -6,6 +6,7 @@
 #include "InsertionSort.h"
 #include "BubbleSort.h"
 #include "ShellSort.h"
+#include "MergeSort.h"
 
 using namespace std;
 
@@ -19,7 +20,7 @@ int main()
     SortUtils::testSort("Bubble Sort", MySort::bubbleSort, vec);
     SortUtils::testSort("Bubble Sort 2", MySort::bubbleSort2, vec);
     SortUtils::testSort("Shell Sort", MySort::shellSort, vec);
-    // SortUtils::printVector(MySort::shellSort(vec));
+    SortUtils::testSort("Merge Sort", MySort::mergeSort, vec);
 
     vector<double> vec2 = {9.9, 8.8, 7.7, 1.1, 4.4, 5.5, 2.2, 6.6};
     SortUtils::printVector(MySort::selectionSort(vec2));
@@ -27,6 +28,7 @@ int main()
     SortUtils::printVector(MySort::bubbleSort(vec2));
     SortUtils::printVector(MySort::bubbleSort2(vec2));
     SortUtils::printVector(MySort::shellSort(vec2));
+    SortUtils::printVector(MySort::mergeSort(vec2));
 
     vector<string> vec3 = {"D", "C", "B", "A"};
     SortUtils::printVector(MySort::selectionSort(vec3));
@@ -34,6 +36,7 @@ int main()
     SortUtils::printVector(MySort::bubbleSort(vec3));
     SortUtils::printVector(MySort::bubbleSort2(vec3));
     SortUtils::printVector(MySort::shellSort(vec3));
+    SortUtils::printVector(MySort::mergeSort(vec3));
 
     vector<Student> vec4 = {{"A", 60}, {"B", 55}, {"C", 60}, {"D", 88}};
     SortUtils::printVector(MySort::selectionSort(vec4));
@@ -41,6 +44,7 @@ int main()
     SortUtils::printVector(MySort::bubbleSort(vec4));
     SortUtils::printVector(MySort::bubbleSort2(vec4));
     SortUtils::printVector(MySort::shellSort(vec4));
+    SortUtils::printVector(MySort::mergeSort(vec4));
     
 
     return 0;
