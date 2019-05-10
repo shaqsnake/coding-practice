@@ -16,3 +16,9 @@ debug
 
 __pycache__
 *.pyc
+
+# CMakefile
+CMakefiles/
+src/**/CMakeCache.txt
+src/**/cmake_install.cmake
+src/**/Makefile
