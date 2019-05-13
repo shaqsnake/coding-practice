@@ -12,10 +12,10 @@
 
 ## Leetcode
 
-|Problems|Solutions|
-|-|-|
-|[1. Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|
-|[231. Power of Two](https://leetcode.com/problems/power-of-two/)|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.go)|
+|Problems|Difficulty|Solutions|
+|-|-|-|
+|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|
+|[231. Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.go)|
 
 ## Topcoder
 |Problems|Solutions|
