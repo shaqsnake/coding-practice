@@ -46,7 +46,12 @@ std::vector<T> mergeSort(std::vector<T> vec)
     auto mid = begin + vec.size() / 2;
     std::vector<T> l = mergeSort(std::vector<T>(begin, mid));
     std::vector<T> r = mergeSort(std::vector<T>(mid, end));
-    return merge(l, r);
+    if (r.front() < l.back()) {
+        return merge(l, r);
+    } else {
+        l.insert(l.end(), r.begin(), r.end());
+        return l; 
+    }
 }
 
 }; // namespace MySort
