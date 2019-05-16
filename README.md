@@ -23,6 +23,8 @@
 |[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)|
 |[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|
+|[762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0762-Prime-Number-of-Set-Bits-in-Binary-Representation/solution.cpp)|
+
 
 ## Topcoder
 |Problems|Solutions|
