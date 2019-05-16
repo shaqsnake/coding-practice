@@ -12,19 +12,19 @@
 
 ## Leetcode
 
-|Problems|Difficulty|Solutions|
-|-|-|-|
-|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|
-|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0104-Maximum-Depth-of-Binary-Tree/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0104-Maximum-Depth-of-Binary-Tree/solution.cpp)|
-|[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0111-Minimum-Depth-of-Binary-Tree/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0111-Minimum-Depth-of-Binary-Tree/solution.cpp)|
-|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)|
-|[136. Single Number](https://leetcode.com/problems/single-number/description/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0136-Single-Number/solution.cpp)|
-|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0200-Number-of-Islands/solution.cpp)|
-|[231. Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.go)|
-|[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)|
-|[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|
-|[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|
-|[762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0762-Prime-Number-of-Set-Bits-in-Binary-Representation/solution.cpp)|
+|Problems|Difficulty|Solutions|Comments|
+|-|-|-|-|
+|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)||
+|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0104-Maximum-Depth-of-Binary-Tree/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0104-Maximum-Depth-of-Binary-Tree/solution.cpp)||
+|[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0111-Minimum-Depth-of-Binary-Tree/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0111-Minimum-Depth-of-Binary-Tree/solution.cpp)||
+|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)||
+|[136. Single Number](https://leetcode.com/problems/single-number/description/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0136-Single-Number/solution.cpp)||
+|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0200-Number-of-Islands/solution.cpp)||
+|[231. Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.go)||
+|[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)||
+|[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)||
+|[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)||
+|[762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0762-Prime-Number-of-Set-Bits-in-Binary-Representation/solution.cpp)||
 
 
 ## Topcoder
