@@ -24,6 +24,7 @@
 |[231. Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0231-Power-of-Two/solution.go)|Bitwise|
 |[260. Single Number III](https://leetcode.com/problems/single-number-iii/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0260-Single-Number-III/solution.cpp)|Bitwise|
 |[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)|DFS/DP|
+|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0371-Sum-of-Two-Integers/solution.cpp)|Bitwise|
 |[476. Number Complement](https://leetcode.com/problems/number-complement/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0476-Number-Complement/solution.cpp)|Bitwise|
 |[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|DFS|
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|DFS/BFS|
@@ -31,6 +32,6 @@
 
 
 ## Topcoder
-|Problems|Solutions|
-|-|-|
-|[ABBA](https://arena.topcoder.com/#/u/practiceCode/16527/48825/13918/2/326683)|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/topcoder/ABBA/solution.cpp)|
+|Problems|Solutions|Comments|
+|-|-|-|
+|[ABBA](https://arena.topcoder.com/#/u/practiceCode/16527/48825/13918/2/326683)|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/topcoder/ABBA/solution.cpp)||
