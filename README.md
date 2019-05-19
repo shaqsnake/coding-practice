@@ -4,6 +4,7 @@
 
 |Algorithms|Code|Templates|
 |:-|:-|:-|
+|a^b||[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/a%5Eb.md)|
 |Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)||
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)||
 |Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)||
