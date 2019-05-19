@@ -2,13 +2,14 @@
 
 ## Data Structures and Algorithms
 
-|Algorithms|Code|
-|:-|:-|
-|Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)|
-|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)|
-|Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)|
-|Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)|
-|Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|
+|Algorithms|Code|Templates|
+|:-|:-|:-|
+|Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)||
+|Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)||
+|Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)||
+|Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)||
+|Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/templates/merge-sort.md)|
+|Quick Sort||[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/templates/quick-sort.md)|
 
 ## Leetcode
 
