@@ -13,6 +13,7 @@ using namespace std;
 int main()
 {
     constexpr int n = 100000;
+    cout << "Test for random array, size = " << n << ", random range [0, " << n - 1 << "]" << endl;
     int *iarr = SortUtils::generateRandomArray(n, 0, n - 1);
     int *iarr1 = SortUtils::copyArray(iarr, n);
     int *iarr2 = SortUtils::copyArray(iarr, n);
@@ -30,6 +31,25 @@ int main()
     SortUtils::testSort("Merge Sort", MySort::mergeSort, iarr5, n);
     SortUtils::testSort("Merge Sort BottomUp", MySort::mergeSort, iarr6, n);
     SortUtils::testSort("Quick Sort", MySort::quickSort, iarr7, n);
+
+    delete[] iarr5;
+    delete[] iarr6;
+    delete[] iarr7;
+    cout << endl;
+
+    constexpr int swapTimes = 100;
+    cout << "Test for nearly ordered array, size = " << n << ", swap time = " << swapTimes << endl;
+    int *oarr = SortUtils::generateNearlyOrderedArray(n, swapTimes);
+    int *oarr1 = SortUtils::copyArray(oarr, n);
+    int *oarr2 = SortUtils::copyArray(oarr, n);
+    SortUtils::testSort("Merge Sort", MySort::mergeSort, oarr, n);
+    SortUtils::testSort("Merge Sort BottomUp", MySort::mergeSort, oarr1, n);
+    SortUtils::testSort("Quick Sort", MySort::quickSort, oarr2, n);
+
+    delete[] oarr;
+    delete[] oarr1;
+    delete[] oarr2;
+    cout << endl;
 
     double darr[10] = {9.9, 8.8, 7.7, 1.1, 4.4, 5.5, 2.2, 6.6, 0.0, 3.3};
     double *darr1 = SortUtils::copyArray(darr, 10);

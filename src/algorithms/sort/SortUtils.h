@@ -20,6 +20,24 @@ int *generateRandomArray(int n, int l, int r)
     return arr;
 }
 
+int *generateNearlyOrderedArray(int n, int swapTimes)
+{
+    int *arr = new int[n];
+    for (int i = 0; i < n; ++i)
+    {
+        arr[i] = i;
+    }
+
+    srand(time(NULL));
+    for (int i = 0; i < swapTimes; ++i)
+    {
+        int x = rand() % n, y = rand() % n;
+        std::swap(arr[x], arr[y]);
+    }
+
+    return arr;
+}
+
 template <typename T>
 T *copyArray(T a[], int n)
 {
