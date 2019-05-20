@@ -10,7 +10,11 @@ void _quicksort(T a[], int l, int r)
     if (l >= r)
         return;
 
-    int p = a[(l + r) >> 1], i = l - 1, j = r + 1;
+    // int p = a[(l + r) >> 1]
+    int p = a[rand() % (r - l + 1) + l]; // random pivot
+    int i = l - 1, j = r + 1;
+    
+    // two-ways quick sort
     while (i < j)
     {
         do
@@ -33,6 +37,7 @@ void _quicksort(T a[], int l, int r)
 template <typename T>
 void quickSort(T a[], int n)
 {
+    srand(time(NULL));
     _quicksort(a, 0, n - 1);
 }
 

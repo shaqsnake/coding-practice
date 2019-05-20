@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    constexpr int n = 100000;
+    constexpr int n = 1000000;
     cout << "Test for random array, size = " << n << ", random range [0, " << n - 1 << "]" << endl;
     int *iarr = SortUtils::generateRandomArray(n, 0, n - 1);
     int *iarr1 = SortUtils::copyArray(iarr, n);
@@ -49,6 +49,19 @@ int main()
     delete[] oarr;
     delete[] oarr1;
     delete[] oarr2;
+    cout << endl;
+
+    cout << "Test for random array with many duplication, size = " << n << ", random range [0, 9]" << endl;
+    int *duarr = SortUtils::generateRandomArray(n, 0, 9);
+    int *duarr1 = SortUtils::copyArray(duarr, n);
+    int *duarr2 = SortUtils::copyArray(duarr, n);
+    SortUtils::testSort("Merge Sort", MySort::mergeSort, duarr, n);
+    SortUtils::testSort("Merge Sort BottomUp", MySort::mergeSort, duarr1, n);
+    SortUtils::testSort("Quick Sort", MySort::quickSort, duarr2, n);
+
+    delete[] duarr;
+    delete[] duarr1;
+    delete[] duarr2;
     cout << endl;
 
     double darr[10] = {9.9, 8.8, 7.7, 1.1, 4.4, 5.5, 2.2, 6.6, 0.0, 3.3};
