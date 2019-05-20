@@ -20,14 +20,16 @@ int main()
     int *iarr4 = SortUtils::copyArray(iarr, n);
     int *iarr5 = SortUtils::copyArray(iarr, n);
     int *iarr6 = SortUtils::copyArray(iarr, n);
+    int *iarr7 = SortUtils::copyArray(iarr, n);
 
-    SortUtils::testSort("Selection Sort", MySort::selectionSort, iarr, n);
-    SortUtils::testSort("Insertion Sort", MySort::insertionSort, iarr1, n);
+    // SortUtils::testSort("Selection Sort", MySort::selectionSort, iarr, n);
+    // SortUtils::testSort("Insertion Sort", MySort::insertionSort, iarr1, n);
     // SortUtils::testSort("Bubble Sort", MySort::bubbleSort, iarr2, n);
     // SortUtils::testSort("Bubble Sort 2", MySort::bubbleSort2, iarr3, n);
-    SortUtils::testSort("Shell Sort", MySort::shellSort, iarr4, n);
+    // SortUtils::testSort("Shell Sort", MySort::shellSort, iarr4, n);
     SortUtils::testSort("Merge Sort", MySort::mergeSort, iarr5, n);
-    SortUtils::testSort("Quick Sort", MySort::quickSort, iarr6, n);
+    SortUtils::testSort("Merge Sort BottomUp", MySort::mergeSort, iarr6, n);
+    SortUtils::testSort("Quick Sort", MySort::quickSort, iarr7, n);
 
     double darr[10] = {9.9, 8.8, 7.7, 1.1, 4.4, 5.5, 2.2, 6.6, 0.0, 3.3};
     double *darr1 = SortUtils::copyArray(darr, 10);
