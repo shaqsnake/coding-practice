@@ -1,57 +1,41 @@
 #ifndef SORT_MERGESORT_H
 #define SORT_MERGESORT_H
 
-#include <vector>
-
 namespace MySort
 {
 
 template <typename T>
-std::vector<T> merge(std::vector<T> left, std::vector<T> right)
+void _mergesort(T arr[], int l, int r)
 {
-    std::vector<T> res;
-    auto l_begin = left.begin(), r_begin = right.begin();
-    while (l_begin != left.end() && r_begin != right.end())
+    if (l >= r)
+        return;
+    int mid = (l + r) >> 1;
+    _mergesort(arr, l, mid);
+    _mergesort(arr, mid + 1, r);
+
+    int i = l, j = mid + 1, k = 0;
+    T tmp[r - l + 1];
+    while (i <= mid && j <= r)
     {
-        if (*l_begin < *r_begin)
-        {
-            res.push_back(*l_begin++);
-        }
+        if (arr[i] < arr[j])
+            tmp[k++] = arr[i++];
         else
-        {
-            res.push_back(*r_begin++);
-        }
+            tmp[k++] = arr[j++];
     }
 
-    while (l_begin != left.end())
-    {
-        res.push_back(*l_begin++);
-    }
-    while (r_begin != right.end())
-    {
-        res.push_back(*r_begin++);
-    }
+    while (i <= mid)
+        tmp[k++] = arr[i++];
+    while (j <= r)
+        tmp[k++] = arr[j++];
 
-    return res;
+    for (int i = l, j = 0; i <= r; ++i, ++j)
+        arr[i] = tmp[j];
 }
 
 template <typename T>
-std::vector<T> mergeSort(std::vector<T> vec)
+void mergeSort(T arr[], int n)
 {
-    auto begin = vec.begin(), end = vec.end();
-    if (vec.size() == 1)
-    {
-        return vec;
-    }
-    auto mid = begin + vec.size() / 2;
-    std::vector<T> l = mergeSort(std::vector<T>(begin, mid));
-    std::vector<T> r = mergeSort(std::vector<T>(mid, end));
-    if (r.front() < l.back()) {
-        return merge(l, r);
-    } else {
-        l.insert(l.end(), r.begin(), r.end());
-        return l; 
-    }
+    _mergesort(arr, 0, n - 1);
 }
 
 }; // namespace MySort

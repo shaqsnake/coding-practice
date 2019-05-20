@@ -8,13 +8,36 @@
 namespace SortUtils
 {
 
+int *generateRandomArray(int n, int l, int r)
+{
+    int *arr = new int[n];
+
+    srand(time(NULL));
+    for (int i = 0; i < n; ++i)
+    {
+        arr[i] = l + rand() % (r - l + 1);
+    }
+    return arr;
+}
+
 template <typename T>
-void printVector(std::vector<T> vec)
+T *copyArray(T a[], int n)
+{
+    T *arr = new T[n];
+    for (int i = 0; i < n; ++i)
+    {
+        arr[i] = a[i];
+    }
+    return arr;
+}
+
+template <typename T>
+void printArray(T arr[], int n)
 {
     std::cout << "Sorted result: ";
-    for (const auto &v : vec)
+    for (int i = 0; i < n; ++i)
     {
-        std::cout << v << " ";
+        std::cout << arr[i] << " ";
     }
     std::cout << std::endl;
 
@@ -22,11 +45,11 @@ void printVector(std::vector<T> vec)
 }
 
 template <typename T>
-bool isSorted(std::vector<T> vec)
+bool isSorted(T arr[], int n)
 {
-    for (auto i = 0; i < vec.size(); ++i)
+    for (int i = 0; i < n; ++i)
     {
-        if (vec[i] < vec[i - 1])
+        if (arr[i] < arr[i - 1])
         {
             return false;
         }
@@ -36,14 +59,14 @@ bool isSorted(std::vector<T> vec)
 }
 
 template <typename T>
-void testSort(const std::string &sortName, std::vector<T> (*sort)(std::vector<T>), std::vector<T> vec)
+void testSort(const std::string &sortName, void (*sort)(T[], int), T arr[], int n)
 {
     auto start = clock();
-    auto res = sort(vec);
+    sort(arr, n);
     auto end = clock();
     std::cout << sortName << ": " << double(end - start) / CLOCKS_PER_SEC << "s" << std::endl;
 
-    assert(isSorted(res));
+    assert(isSorted(arr, n));
 
     return;
 }

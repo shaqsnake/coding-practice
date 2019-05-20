@@ -5,40 +5,37 @@ namespace MySort
 {
 
 template <typename T>
-std::vector<T> bubbleSort(std::vector<T> vec)
+void bubbleSort(T a[], int n)
 {
-    for (decltype(vec.size()) i = 0; i < vec.size(); ++i)
+    for (int i = 0; i < n; ++i)
     {
-        for (auto j = 0; j < vec.size() - i - 1; ++j)
+        for (int j = i + 1; j < n; ++j)
         {
-            if (vec[j + 1] < vec[j])
-            {
-                std::swap(vec[j], vec[j + 1]);
-            }
+            if (a[j] < a[i])
+                std::swap(a[i], a[j]);
         }
     }
-
-    return vec;
+    return;
 }
 
 template <typename T>
-std::vector<T> bubbleSort2(std::vector<T> vec)
+void bubbleSort2(T a[], int n)
 {
     bool swapped;
     do
     {
         swapped = false;
-        for (decltype(vec.size()) i = 1; i < vec.size(); ++i)
+        for (int i = 1; i < n; ++i)
         {
-            if (vec[i] < vec[i - 1])
+            if (a[i] < a[i - 1])
             {
-                std::swap(vec[i], vec[i - 1]);
+                std::swap(a[i], a[i - 1]);
                 swapped = true;
             }
         }
     } while (swapped);
 
-    return vec;
+    return;
 }
 
 };     // namespace MySort

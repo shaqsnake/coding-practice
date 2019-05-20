@@ -5,21 +5,21 @@ namespace MySort
 {
 
 template <typename T>
-std::vector<T> selectionSort(std::vector<T> vec)
+void selectionSort(T a[], int n)
 {
-    for (int i = 0; i < vec.size(); ++i)
+    for (int i = 0; i < n; ++i)
     {
         int min = i;
-        for (int j = i + 1; j < vec.size(); ++j)
+        for (int j = i + 1; j < n; ++j)
         {
-            if (vec[j] < vec[min])
+            if (a[j] < a[min])
             {
                 min = j;
             }
         }
-        std::swap(vec[i], vec[min]); // Use stl algothrim swap
+        std::swap(a[i], a[min]); // Use stl algothrim swap
     }
-    return vec;
+    return;
 }
 
 };     // namespace MySort

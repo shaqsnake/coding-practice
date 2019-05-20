@@ -1,14 +1,14 @@
 ```c++
 void mergesort(int q[], int l, int r) {
-    if (l>=r) return;
+    if (l >= r) return;
     
     int mid = (l + r) >> 1;
     mergesort(q, l, mid);
     mergesort(q, mid+1, r);
     
     int i = l, j = mid + 1, k = 0;
-    int tmp[r+1];
-    while (i<=mid && j<=r) {
+    int tmp[r-l+1];
+    while (i <= mid && j <= r) {
         if (q[i] < q[j]) tmp[k++] = q[i++];
         else tmp[k++] = q[j++];
     }

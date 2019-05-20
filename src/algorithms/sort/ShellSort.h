@@ -9,12 +9,12 @@ namespace MySort
  * that allows the exchange of items that are far apart.
  */
 template <typename T>
-std::vector<T> shellSort(std::vector<T> vec)
+void shellSort(T a[], int n)
 {
     int step = 1, factor = 4;
 
     // step = 1 at last loop
-    while (step < vec.size() / factor)
+    while (step < n / factor)
     {
         step = factor * step + 1;
     }
@@ -23,20 +23,20 @@ std::vector<T> shellSort(std::vector<T> vec)
     {
         // The logic is similar to insertion sort, 
         // only the step should scale down at each loop.
-        for (int i = step; i < vec.size(); i += step)
+        for (int i = step; i < n; i += step)
         {
             int j;
-            T temp = vec[i];
-            for (j = i; j >= step && temp < vec[j - step]; j -= step)
+            T tmp = a[i];
+            for (j = i; j >= step && tmp < a[j - step]; j -= step)
             {
-                vec[j] = vec[j - step];
+                a[j] = a[j - step];
             }
-            vec[j] = temp;
+            a[j] = tmp;
         }
         step /= factor;
     }
 
-    return vec;
+    return;
 }
 
 }; // namespace MySort

@@ -5,20 +5,20 @@ namespace MySort
 {
 
 template <typename T>
-std::vector<T> insertionSort(std::vector<T> vec)
+void insertionSort(T a[], int n)
 {
-    for (int i = 1; i < vec.size(); ++i)
+    for (int i = 1; i < n; ++i)
     {
-        T tmp = vec[i];
+        T tmp = a[i];
         int j;
-        for (j = i; j > 0 && tmp < vec[j - 1]; --j)
+        for (j = i; j > 0 && tmp < a[j - 1]; --j)
         {
-            vec[j] = vec[j - 1];
+            a[j] = a[j - 1];
         }
-        vec[j] = tmp;
+        a[j] = tmp;
     }
 
-    return vec;
+    return;
 }
 
 };     // namespace MySort
