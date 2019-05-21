@@ -9,8 +9,9 @@
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)||
 |Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)||
 |Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)||
-|Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/templates/merge-sort.md)|
+|Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|[C++](https://gist.github.com/shaqsnake/b0ecad5794b206e24e6200d6f127ed3d)|
 |Quick Sort||[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/templates/quick-sort.md)|
+|Binary Search||[C++](https://gist.github.com/shaqsnake/57ee82c7366cefedded3a84112b178e2)|
 
 ## Leetcode
 
