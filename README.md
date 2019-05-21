@@ -4,13 +4,13 @@
 
 |Algorithms|Code|Templates|
 |:-|:-|:-|
-|a^b||[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/a%5Eb.md)|
+|a^b||[C++](https://gist.github.com/shaqsnake/0914215a9aa0fc1eb040d9a55ed4b453)|
 |Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)||
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)||
 |Insertion Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/InsertionSort.h)||
 |Shell Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/ShellSort.h)||
 |Merge Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/MergeSort.h)|[C++](https://gist.github.com/shaqsnake/b0ecad5794b206e24e6200d6f127ed3d)|
-|Quick Sort||[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/templates/quick-sort.md)|
+|Quick Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/QuickSort.h)|[C++](https://gist.github.com/shaqsnake/4d59eb3af016612cf6764a80a105d9fb)|
 |Binary Search||[C++](https://gist.github.com/shaqsnake/57ee82c7366cefedded3a84112b178e2)|
 
 ## Leetcode
