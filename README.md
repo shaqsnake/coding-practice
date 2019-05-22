@@ -41,3 +41,8 @@
 |Problems|Solutions|Comments|
 |:-|:-|:-|
 |[ABBA](https://arena.topcoder.com/#/u/practiceCode/16527/48825/13918/2/326683)|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/topcoder/ABBA/solution.cpp)||
+
+## Tedukuri
+|Problems|Solutions|Comments|
+|:-|:-|:-|
+|[CH0103](https://bit.ly/2QcLjth)|[C++]()||
