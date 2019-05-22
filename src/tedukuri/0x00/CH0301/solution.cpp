@@ -25,6 +25,19 @@ void dfs(int x)
     return;
 }
 
+void dfs2(int x, int state) {
+    if (x == n) {
+        for (int i = 0; i < n; ++i)
+            if (state >> i & 1) 
+                cout << i + 1 << " ";
+        cout << endl;
+        return;
+    }
+
+    dfs2(x+1, state); // not choose and search next
+    dfs2(x+1, state | (1 << x)); // choose and search next
+}
+
 int main()
 {
     cin >> n;
