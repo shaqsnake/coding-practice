@@ -45,4 +45,4 @@
 ## Tedukuri
 |Problems|Solutions|Comments|
 |:-|:-|:-|
-|[CH0103](https://bit.ly/2QcLjth)|[C++]()||
+|[CH0103](https://bit.ly/2QcLjth)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0103/solution.cpp)|DP/Bitwise|
