@@ -45,6 +45,8 @@
 ## Tedukuri
 |Problems|Solutions|Comments|
 |:-|:-|:-|
-|[CH0102](https://bit.ly/30zYpFJ)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0102/solution.cpp)|Bitwise|
-|[CH0103](https://bit.ly/2QcLjth)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0103/solution.cpp)|DP/Bitwise|
-|[CH0301](https://bit.ly/2waAej4)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0301/solution.cpp)|Recursion/Back tracing/State compression|
+|[CH0102 64位整数乘法](https://bit.ly/30zYpFJ)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0102/solution.cpp)|Bitwise|
+|[CH0103 最短Hamilton路径](https://bit.ly/2QcLjth)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0103/solution.cpp)|DP/Bitwise|
+|[CH0301 递归实现指数型枚举](https://bit.ly/2waAej4)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0301/solution.cpp)|Recursion/Back tracing/State compression|
+|[CH0302 递归/非递归实现组合型枚举](https://bit.ly/2VCEuCl)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0302/solution.cpp)|Recursion/Back tracing/State compression|
+|[CH0303 递归实现排列型枚举](https://bit.ly/2YGGrPW)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0303/solution.cpp)|Recursion/Back tracing/State compression|
