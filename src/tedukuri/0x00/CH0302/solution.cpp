@@ -1,8 +1,10 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 int n, m;
+vector<int> res;
 
 void dfs(int x)
 {
@@ -16,11 +18,11 @@ void dfs(int x)
         return;
     }
 
-    dfs(x + 1);
-
     res.push_back(x + 1);
     dfs(x + 1);
     res.pop_back();
+
+    dfs(x + 1);
 
     return;
 }
@@ -28,6 +30,6 @@ void dfs(int x)
 int main()
 {
     cin >> n >> m;
-    dfs(0, 0);
+    dfs(0);
     return 0;
 }
