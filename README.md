@@ -33,6 +33,7 @@
 |[421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0421-Maximum-XOR-of-Two-Numbers-in-an-Array/solution.cpp)|Bitwise/Trie|
 |[476. Number Complement](https://leetcode.com/problems/number-complement/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0476-Number-Complement/solution.cpp)|Bitwise|
 |[477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0477-Total-Hamming-Distance/solution.cpp)|Bitwise|
+|[493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0493-Reverse-Pairs/solution.cpp)|Mergesort|
 |[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|DFS|
 |[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0703-Kth-Largest-Element-in-a-Stream/solution.cpp)|Heap/Priority Q|
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|DFS/BFS|
