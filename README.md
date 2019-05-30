@@ -18,6 +18,7 @@
 |Problems|Difficulty|Solutions|Comments|
 |:-|:-|:-|:-|
 |[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|Hashtable|
+|[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0028-Implement-strStr()/solution.cpp)|KMP|
 |[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0034-Find-First-an-Last-Position-of-Element-in-Sorted-Array/solution.cpp)|Binary Search|
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0056-Merge-Intervals/solution.cpp)|Sort|
 |[66. Plus One](https://leetcode.com/problems/plus-one/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0066-Plus-One/solution.cpp)|Big num op|
