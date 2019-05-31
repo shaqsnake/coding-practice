@@ -63,3 +63,4 @@
 |Problems|Solutions|Comments|
 |:-|:-|:-|
 |[1852-Ants](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1852-Ants)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1852-Ants/solution.cpp)|Enum|
+|[1958-Strange-Towers-of-Hanoi](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1958-Strange-Towers-of-Hanoi)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1958-Strange-Towers-of-Hanoi/solution.cpp)|DP|
