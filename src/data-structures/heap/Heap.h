@@ -4,7 +4,7 @@
 #include <algorithm>
 
 template <typename T> class MaxHeap {
-  public:
+public:
     MaxHeap(int capacity) : data_(new T[capacity + 1]), size_(0), idx_(1) {}
 
     ~MaxHeap() { delete[] data_; }
@@ -15,7 +15,7 @@ template <typename T> class MaxHeap {
     void add(T x);
     T pop();
 
-  private:
+private:
     T *data_;
     int size_;
     int idx_;
