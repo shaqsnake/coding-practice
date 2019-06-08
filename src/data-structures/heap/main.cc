@@ -10,14 +10,18 @@ int main() {
     int a[N];
     for (int i = 0; i < N; i++)
         a[i] = rand() % 100;
-    MyHeap<int> heap = MyHeap<int>(a, N);
+    MyHeap<int> minHeap = MyHeap<int>(a, N);
+    auto maxHeap = MyHeap<int, greater<int>>(a, N);
 
-    heap.printHeap();
+    minHeap.printHeap();
+    while (!minHeap.empty())
+        cout << minHeap.pop() << " ";
+    cout << endl;
 
-    cout << heap.peek() << endl;
-
-    while (!heap.empty())
-        cout << heap.pop() << " ";
+    maxHeap.printHeap();
+    while (!maxHeap.empty()) {
+        cout << maxHeap.pop() << " ";
+    }
     cout << endl;
     return 0;
 }
