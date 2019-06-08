@@ -2,10 +2,12 @@
 #define _HEAP_H
 
 #include <algorithm>
+#include <iostream>
 
 template <typename T> class MaxHeap {
 public:
-    MaxHeap(int capacity) : data_(new T[capacity + 1]), size_(0), idx_(1) {}
+    MaxHeap(int capacity)
+        : data_(new T[capacity + 1]), size_(0), capacity_(capacity) {}
 
     ~MaxHeap() { delete[] data_; }
 
@@ -13,24 +15,33 @@ public:
     bool empty() { return size_ == 0; }
 
     void add(T x);
+    T peek();
     T pop();
+    void printHeap();
 
 private:
     T *data_;
     int size_;
-    int idx_;
+    int capacity_;
 
     void siftUp(int i);
     void siftDown(int i);
+    void printNode(int i, const std::string &prefix);
 };
 
 template <typename T> void MaxHeap<T>::add(T x) {
-    data_[idx_++] = x;
-    size_++;
+    assert(size_ + 1 <= capacity_);
+    data_[++size_] = x;
     siftUp(size_);
 }
 
+template <typename T> T MaxHeap<T>::peek() {
+    assert(size_ > 0);
+    return data_[1];
+}
+
 template <typename T> T MaxHeap<T>::pop() {
+    assert(size_ > 0);
     T res = data_[1];
     std::swap(data_[1], data_[size_--]);
     siftDown(1);
@@ -55,5 +66,23 @@ template <typename T> void MaxHeap<T>::siftDown(int i) {
         std::swap(data_[i], data_[max]);
         siftDown(max);
     }
+}
+
+template <typename T> void MaxHeap<T>::printHeap() { printNode(1, ""); }
+
+template <typename T>
+void MaxHeap<T>::printNode(int i, const std::string &prefix) {
+    bool isLeft = true;
+    if (i == size_ || i & 1)
+        isLeft = false;
+
+    std::cout << prefix;
+    std::cout << (isLeft ? "├──" : "└──");
+    std::cout << data_[i] << std::endl;
+
+    if (2 * i <= size_)
+        printNode(2 * i, prefix + (isLeft ? "│   " : "    "));
+    if (2 * i + 1 <= size_)
+        printNode(2 * i + 1, prefix + (isLeft ? "│   " : "    "));
 }
 #endif // _HEAP_H
