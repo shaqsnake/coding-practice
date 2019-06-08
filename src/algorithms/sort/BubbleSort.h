@@ -1,16 +1,13 @@
 #ifndef SORT_BUBBLESORT_H
 #define SORT_BUBBLESORT_H
 
-namespace MySort
-{
+#include <algorithm>
 
-template <typename T>
-void bubbleSort(T a[], int n)
-{
-    for (int i = 0; i < n; ++i)
-    {
-        for (int j = i + 1; j < n; ++j)
-        {
+namespace MySort {
+
+template <typename T> void bubbleSort(T a[], int n) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = i + 1; j < n; ++j) {
             if (a[j] < a[i])
                 std::swap(a[i], a[j]);
         }
@@ -18,17 +15,12 @@ void bubbleSort(T a[], int n)
     return;
 }
 
-template <typename T>
-void bubbleSort2(T a[], int n)
-{
+template <typename T> void bubbleSort2(T a[], int n) {
     bool swapped;
-    do
-    {
+    do {
         swapped = false;
-        for (int i = 1; i < n; ++i)
-        {
-            if (a[i] < a[i - 1])
-            {
+        for (int i = 1; i < n; ++i) {
+            if (a[i] < a[i - 1]) {
                 std::swap(a[i], a[i - 1]);
                 swapped = true;
             }
@@ -39,4 +31,4 @@ void bubbleSort2(T a[], int n)
 }
 
 };     // namespace MySort
-#endif //SORT_BUBBLESORT_H
+#endif // SORT_BUBBLESORT_H

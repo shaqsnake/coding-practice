@@ -5,12 +5,12 @@
 using namespace std;
 
 int main() {
-
-    MaxHeap<int> heap = MaxHeap<int>(100);
-    constexpr int N = 100;
+    constexpr int N = 10;
     srand(time(NULL));
+    int a[N];
     for (int i = 0; i < N; i++)
-        heap.add(rand() % 100);
+        a[i] = rand() % 100;
+    MyHeap<int> heap = MyHeap<int>(a, N);
 
     heap.printHeap();
 
