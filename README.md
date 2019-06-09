@@ -71,4 +71,6 @@
 |:-|:-|:-|
 |[1852-Ants](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1852-Ants)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1852-Ants/solution.cpp)|Enum|
 |[1958-Strange-Towers-of-Hanoi](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1958-Strange-Towers-of-Hanoi)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1958-Strange-Towers-of-Hanoi/solution.cpp)|DP|
+|[1979-Red-and-Black](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1979-Red-and-Black/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1979-Red-and-Black/solution.cc)|DFS|
 |[2386-Lake-Counting](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/2386-Lake-Counting)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/2386-Lake-Counting/solution.cc)|DFS|
+
