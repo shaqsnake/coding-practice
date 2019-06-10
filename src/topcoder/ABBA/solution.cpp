@@ -1,37 +1,36 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
-#include <algorithm>
 
 using namespace std;
 
-class ABBA
-{
+class ABBA {
 public:
     string canObtain(string initial, string target);
 };
 
-string ABBA::canObtain(string initial, string target)
-{
+string ABBA::canObtain(string initial, string target) {
     while (target.size() > initial.size()) {
         auto len = target.size();
-        if (target[len-1] == 'B') {
-            target = target.substr(0, len-1);
+        if (target[len - 1] == 'B') {
+            target = target.substr(0, len - 1);
             reverse(target.begin(), target.end());
         } else {
-            target = target.substr(0, len-1);
+            target = target.substr(0, len - 1);
         }
     }
 
     return initial == target ? "Possible" : "Impossible";
 }
 
-int main()
-{
+int main() {
     ABBA abba;
     cout << abba.canObtain("B", "ABBA") << endl;
     cout << abba.canObtain("AB", "ABB") << endl;
     cout << abba.canObtain("BBAB", "ABABABABB") << endl;
-    cout << abba.canObtain("BBBBABABBBBBBA", "BBBBABABBABBBBBBABABBBBBBBBABAABBBAA") << endl;
+    cout << abba.canObtain("BBBBABABBBBBBA",
+                           "BBBBABABBABBBBBBABABBBBBBBBABAABBBAA")
+         << endl;
     cout << abba.canObtain("A", "BB") << endl;
     return 0;
 }

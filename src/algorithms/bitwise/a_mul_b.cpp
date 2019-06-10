@@ -3,10 +3,10 @@
 using namespace std;
 #define ll long long
 
-ll a_mul_b_mod_p(ll a , ll b, ll p) {
+ll a_mul_b_mod_p(ll a, ll b, ll p) {
     ll res = 0;
-    while(b) {
-        if (b&1)
+    while (b) {
+        if (b & 1)
             res = (res + a) % p;
         a = a * 2 % p;
         b >>= 1;

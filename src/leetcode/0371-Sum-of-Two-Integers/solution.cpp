@@ -2,27 +2,20 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    int getSum(int a, int b)
-    {
+    int getSum(int a, int b) {
         if (b == 0)
             return a;
         return getSum(a ^ b, uint(a & b) << 1);
     }
 };
 
-int stringToInteger(string input)
-{
-    return stoi(input);
-}
+int stringToInteger(string input) { return stoi(input); }
 
-int main()
-{
+int main() {
     string line;
-    while (getline(cin, line))
-    {
+    while (getline(cin, line)) {
         int a = stringToInteger(line);
         getline(cin, line);
         int b = stringToInteger(line);

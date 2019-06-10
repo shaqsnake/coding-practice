@@ -1,20 +1,16 @@
-class Solution
-{
+class Solution {
 public:
-    int findKthLargest(vector<int> &nums, int k)
-    {
+    int findKthLargest(vector<int> &nums, int k) {
         return quickFind(nums, 0, nums.size() - 1, nums.size() - k + 1);
     }
 
 private:
-    int quickFind(vector<int> &a, int l, int r, int k)
-    {
+    int quickFind(vector<int> &a, int l, int r, int k) {
         if (l >= r)
             return a[l];
 
         int p = a[l + r >> 1], i = l - 1, j = r + 1;
-        while (i < j)
-        {
+        while (i < j) {
             do
                 i++;
             while (a[i] < p);

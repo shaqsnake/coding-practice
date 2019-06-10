@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <algorithm>
+#include <cstdio>
 
 using namespace std;
 
@@ -10,7 +10,8 @@ int main() {
         int l, n;
         scanf("%d%d", &l, &n);
         int a[n];
-        for (int i = 0; i < n; i++) scanf("%d", &a[i]);
+        for (int i = 0; i < n; i++)
+            scanf("%d", &a[i]);
 
         int minT = 0;
         for (int i = 0; i < n; i++) {
@@ -19,7 +20,7 @@ int main() {
 
         int maxT = 0;
         for (int i = 0; i < n; i++) {
-            maxT = max(maxT, max(a[i], l-a[i]));
+            maxT = max(maxT, max(a[i], l - a[i]));
         }
 
         printf("%d %d\n", minT, maxT);

@@ -1,13 +1,12 @@
-#include <iostream>
 #include <cstring>
+#include <iostream>
 
 using namespace std;
 
 const int N = 13;
 int d[N], f[N];
 
-int main()
-{
+int main() {
     int n = 12;
 
     for (int i = 1; i <= n; i++)
@@ -15,8 +14,7 @@ int main()
 
     memset(f, 0x3f, sizeof(f));
     f[0] = 0;
-    for (int i = 1; i <= n; i++)
-    {
+    for (int i = 1; i <= n; i++) {
         for (int j = 0; j < i; j++)
             f[i] = min(f[i], 2 * f[j] + d[i - j]);
     }

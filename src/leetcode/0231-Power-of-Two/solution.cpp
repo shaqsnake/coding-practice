@@ -2,17 +2,12 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    bool isPowerOfTwo(int n)
-    {
-        return n > 0 && (n & -n) == n;
-    }
+    bool isPowerOfTwo(int n) { return n > 0 && (n & -n) == n; }
 };
 
-int main()
-{
+int main() {
     Solution solution;
     int inputs[] = {1, 16, 218};
     for (const auto &n : inputs) {

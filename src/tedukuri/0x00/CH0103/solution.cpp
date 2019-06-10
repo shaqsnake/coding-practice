@@ -18,9 +18,13 @@ int main() {
     memset(f, 0x3f, sizeof(f));
     f[1][0] = 0;
     for (int i = 1; i < 1 << n; i++)
-        for (int j = 0; j < n; j++) if (i >> j & 1) // 确定j确实已经记录在状态位上了
-            for (int k = 0; k < n; k++) if ((i ^ (1 << j)) >> k & 1) // 因为是从k->j,所以要确定k在状态位上，而j不再状态位上
-                f[i][j] = min(f[i][j], f[i ^ (1 << j)][k] + weight[k][j]);
+        for (int j = 0; j < n; j++)
+            if (i >> j & 1) // 确定j确实已经记录在状态位上了
+                for (int k = 0; k < n; k++)
+                    if ((i ^ (1 << j)) >> k &
+                        1) // 因为是从k->j,所以要确定k在状态位上，而j不再状态位上
+                        f[i][j] =
+                            min(f[i][j], f[i ^ (1 << j)][k] + weight[k][j]);
 
     cout << f[(1 << n) - 1][n - 1] << endl;
 

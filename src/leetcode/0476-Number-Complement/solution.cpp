@@ -2,15 +2,12 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    int findComplement(int num)
-    {
+    int findComplement(int num) {
 
         int res = 0, t = 0;
-        while (num)
-        {
+        while (num) {
             res += !(num & 1) << t;
             num >>= 1;
             ++t;
@@ -20,16 +17,11 @@ public:
     }
 };
 
-int stringToInteger(string input)
-{
-    return stoi(input);
-}
+int stringToInteger(string input) { return stoi(input); }
 
-int main()
-{
+int main() {
     string line;
-    while (getline(cin, line))
-    {
+    while (getline(cin, line)) {
         int num = stringToInteger(line);
 
         int ret = Solution().findComplement(num);

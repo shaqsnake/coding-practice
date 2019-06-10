@@ -1,16 +1,12 @@
-class KthLargest
-{
+class KthLargest {
 public:
-    KthLargest(int k, vector<int> &nums) : kth(k)
-    {
-        for (const auto &n : nums)
-        {
+    KthLargest(int k, vector<int> &nums) : kth(k) {
+        for (const auto &n : nums) {
             add(n);
         }
     }
 
-    int add(int val)
-    {
+    int add(int val) {
         pq.push(val);
         while (pq.size() > kth)
             pq.pop();
