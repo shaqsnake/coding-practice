@@ -15,16 +15,21 @@ public:
 
     int size() { return size_; }
     bool empty() { return size_ == 0; }
+    bool contain(int i) { 
+        assert (i + 1 >= 1 && i + 1 <= size_);
+        return rev_[i+1] != 0;}
 
     void add(ElemType x);
     ElemType &peek();
     ElemType pop();
+    int popIndex();
     void update(int i, ElemType x);
     void printHeap();
 
 private:
     ElemType *data_;
-    int *idx_;
+    int *idx_; // index of Heap
+    int *rev_; // reversed index
     int size_;
     int capacity_;
     Compare cmp;
@@ -37,15 +42,16 @@ private:
 // Consutructors/Destructors
 template <class ElemType, class Compare>
 inline MyIndexHeap<ElemType, Compare>::MyIndexHeap(int capacity)
-    : data_(new ElemType[capacity + 1]), idx_(new int[capacity]), size_(0),
-      capacity_(capacity) {}
+    : data_(new ElemType[capacity + 1]), idx_(new int[capacity + 1]),
+      rev_(new int[capacity + 1]), size_(0), capacity_(capacity) {}
 
 template <class ElemType, class Compare>
 inline MyIndexHeap<ElemType, Compare>::MyIndexHeap(ElemType arr[], int capacity)
     : data_(new ElemType[capacity + 1]), idx_(new int[capacity + 1]),
-      size_(capacity), capacity_(capacity) {
+      rev_(new int[capacity + 1]), size_(capacity), capacity_(capacity) {
     for (int i = 1; i <= capacity; i++) {
         idx_[i] = i;
+        rev_[i] = i;
         data_[i] = arr[i - 1];
     }
 
@@ -57,6 +63,7 @@ template <class ElemType, class Compare>
 inline MyIndexHeap<ElemType, Compare>::~MyIndexHeap() {
     delete[] data_;
     delete[] idx_;
+    delete[] rev_;
 }
 
 // Public member func
@@ -65,6 +72,7 @@ void MyIndexHeap<ElemType, Compare>::add(ElemType x) {
     assert(size_ + 1 <= capacity_);
     data_[++size_] = x;
     idx_[size_] = size_;
+    rev_[size_] = size_;
     siftUp(size_);
 }
 
@@ -79,19 +87,29 @@ ElemType MyIndexHeap<ElemType, Compare>::pop() {
     assert(size_ > 0);
     ElemType res = data_[idx_[1]];
     using std::swap;
-    swap(idx_[1], idx_[size_--]);
-    siftDown(1);
+    swap(idx_[1], idx_[size_]);
+    rev_[idx_[size_]] = 0;
+    size_--;
+
+    if (size_) {
+        rev_[idx_[1]] = 1;
+        siftDown(1);
+    }
     return res;
 }
 
 template <class ElemType, class Compare>
-void MyIndexHeap<ElemType, Compare>::update(int i, ElemType x) {
-    assert (i + 1 <= size_);
-    data_[i+1] = x;
+int MyIndexHeap<ElemType, Compare>::popIndex() {
+    assert(size_ > 0);
+    return idx_[1] - 1;
+}
 
-    for (int j = 1; j <= size_; j++)
-        if (j == idx_[i+1])
-            siftUp(j), siftDown(j);
+template <class ElemType, class Compare>
+void MyIndexHeap<ElemType, Compare>::update(int i, ElemType x) {
+    assert(contain(i));
+    data_[++i] = x;
+    siftUp(rev_[i]);
+    siftDown(rev_[i]);
 }
 
 template <class ElemType, class Compare>
@@ -99,6 +117,7 @@ void MyIndexHeap<ElemType, Compare>::siftUp(int i) {
     while (i / 2 && cmp(data_[idx_[i]], data_[idx_[i / 2]])) {
         using std::swap;
         swap(idx_[i], idx_[i / 2]);
+        swap(rev_[idx_[i]], rev_[idx_[i / 2]]);
         i /= 2;
     }
 }
@@ -113,6 +132,7 @@ void MyIndexHeap<ElemType, Compare>::siftDown(int i) {
     if (j != i) {
         using std::swap;
         swap(idx_[i], idx_[j]);
+        swap(rev_[idx_[i]], rev_[idx_[j]]);
         siftDown(j);
     }
 }
