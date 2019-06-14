@@ -16,6 +16,7 @@
 |Data Structures|Code|Comments|
 |:-|:-|:-|
 |Heap|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/data-structures/heap/Heap.h)||
+|Heap|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/data-structures/heap/IndexHeap.h)||
 
 ## Leetcode
 
