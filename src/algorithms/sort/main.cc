@@ -96,7 +96,7 @@ int main() {
     Student *carr1 = SortUtils::copyArray(carr, 4);
     MySort::mergeSort(carr, 4);
     SortUtils::printArray(carr, 4);
-    MySort::heapSort(carr1, 4);
+    MySort::indexHeapSort(carr1, 4);
     SortUtils::printArray(carr1, 4);
     cout << endl;
 
