@@ -1,5 +1,5 @@
-#include "Heap.h"
-#include "IndexHeap.h"
+#include "Heap.hpp"
+#include "IndexHeap.hpp"
 #include <ctime>
 #include <iostream>
 
