@@ -2,6 +2,7 @@
 #define _HEAP_H
 
 #include <algorithm>
+#include <cassert>
 #include <functional>
 #include <iostream>
 
@@ -31,6 +32,7 @@ private:
     void printNode(int i, const std::string &prefix);
 };
 
+
 template <class ElemType, class Compare>
 MyHeap<ElemType, Compare>::MyHeap(ElemType arr[], int capacity)
     : data_(new ElemType[capacity + 1]), size_(capacity), capacity_(capacity) {
@@ -58,7 +60,8 @@ template <class ElemType, class Compare>
 ElemType MyHeap<ElemType, Compare>::pop() {
     assert(size_ > 0);
     ElemType res = data_[1];
-    std::swap(data_[1], data_[size_--]);
+    using std::swap;
+    swap(data_[1], data_[size_--]);
     siftDown(1);
 
     return res;
@@ -66,8 +69,9 @@ ElemType MyHeap<ElemType, Compare>::pop() {
 
 template <class ElemType, class Compare>
 void MyHeap<ElemType, Compare>::siftUp(int i) {
-    while (cmp(i / 2 && data_[i], data_[i / 2])) {
-        std::swap(data_[i / 2], data_[i]);
+    while (i / 2 && cmp(data_[i], data_[i / 2])) {
+        using std::swap;
+        swap(data_[i / 2], data_[i]);
         i /= 2;
     }
 }
@@ -80,7 +84,8 @@ void MyHeap<ElemType, Compare>::siftDown(int i) {
     if (2 * i + 1 <= size_ && cmp(data_[2 * i + 1], data_[j]))
         j = 2 * i + 1;
     if (j != i) {
-        std::swap(data_[i], data_[j]);
+        using std::swap;
+        swap(data_[i], data_[j]);
         siftDown(j);
     }
 }
