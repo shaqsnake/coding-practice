@@ -17,5 +17,8 @@ int main() {
 
     bst->print_tree();
 
+    cout << bst->contain("a") << endl;
+    cout << bst->contain("z") << endl;
+
     return 0;
 }
