@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <queue>
 
 template <typename K, typename V>
 class Node {
@@ -37,20 +38,13 @@ public:
     // Search by key, return its value if exists.
     V *search(const K &key) const { return _search(root, key); }
     // Print BST nodes by pre-order.
-    void preOrder() const {
-        _preOrder(root);
-        std::cout << std::endl;
-    }
+    void preOrder() const { _preOrder(root); }
     // Print BST nodes by in-order.
-    void inOrder() const {
-        _inOrder(root);
-        std::cout << std::endl;
-    }
+    void inOrder() const { _inOrder(root); }
     // Print BST nodes by post-order.
-    void postOrder() const {
-        _postOrder(root);
-        std::cout << std::endl;
-    }
+    void postOrder() const { _postOrder(root); }
+    // Print BST nodes by BFS.
+    void levelOrder() const;
     // Print BST in a pretty format.
     void print_tree() const { _print_tree(root, "", false); }
 
@@ -66,7 +60,7 @@ private:
     void _inOrder(Node<K, V> *node) const;
     void _postOrder(Node<K, V> *node) const;
     void _print_tree(Node<K, V> *node, const std::string &prefix,
-                     bool isLeft) const;
+                          bool isLeft) const;
 };
 
 template <typename K, typename V>
@@ -149,6 +143,23 @@ void BSTree<K, V>::_postOrder(Node<K, V> *node) const {
         _postOrder(node->left);
         _postOrder(node->right);
         std::cout << node << " ";
+    }
+}
+
+template <typename K, typename V>
+void BSTree<K, V>::levelOrder() const {
+    std::queue<Node<K, V>*> q;
+    q.push(root);
+
+    while (!q.empty()) {
+        auto node = q.front();
+        q.pop();
+        std::cout << node << " ";
+
+        if (node->left)
+            q.push(node->left);
+        if (node->right)
+            q.push(node->right);
     }
 }
 

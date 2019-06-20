@@ -23,8 +23,13 @@ int main() {
         cout << *bst->search("z") << endl;
 
     bst->preOrder();
+    cout << endl;
     bst->inOrder();
+    cout << endl;
     bst->postOrder();
+    cout << endl;
+    bst->levelOrder();
+    cout << endl;
 
     return 0;
 }
