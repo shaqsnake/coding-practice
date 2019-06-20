@@ -36,6 +36,12 @@ public:
     }
     // Search by key, return its value if exists.
     V *search(const K &key) const { return _search(root, key); }
+    // Print BST nodes by pre-order.
+    void preOrder() const { _preOrder(root); }
+    // Print BST nodes by in-order.
+    void inOrder() const { _inOrder(root); }
+    // Print BST nodes by post-order.
+    void postOrder() const { _postOrder(root); }
     // Print BST in a pretty format.
     void print_tree() const { _print_tree(root, "", false); }
 
@@ -47,6 +53,9 @@ private:
     bool _contain(Node<K, V> *node, const K &key) const;
     Node<K, V> *_insert(Node<K, V> *node, const K &key, const V &value);
     V *_search(Node<K, V> *node, const K &key) const;
+    void _preOrder(Node<K, V> *node) const;
+    void _inOrder(Node<K, V> *node) const;
+    void _postOrder(Node<K, V> *node) const;
     void _print_tree(Node<K, V> *node, const std::string &prefix,
                      bool isLeft) const;
 };
@@ -105,6 +114,33 @@ Node<K, V> *BSTree<K, V>::_insert(Node<K, V> *node, const K &key,
     }
 
     return node;
+}
+
+template <typename K, typename V>
+void BSTree<K, V>::_preOrder(Node<K, V> *node) const {
+    if (node) {
+        std::cout << node << " ";
+        _preOrder(node->left);
+        _preOrder(node->right);
+    }
+}
+
+template <typename K, typename V>
+void BSTree<K, V>::_inOrder(Node<K, V> *node) const {
+    if (node) {
+        _inOrder(node->left);
+        std::cout << node << " ";
+        _inOrder(node->right);
+    }
+}
+
+template <typename K, typename V>
+void BSTree<K, V>::_postOrder(Node<K, V> *node) const {
+    if (node) {
+        _postOrder(node->left);
+        std::cout << node << " ";
+        _postOrder(node->right);
+    }
 }
 
 template <typename K, typename V>

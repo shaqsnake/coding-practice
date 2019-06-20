@@ -22,5 +22,7 @@ int main() {
     if (bst->contain("z"))
         cout << *bst->search("z") << endl;
 
+    bst->inOrder();
+
     return 0;
 }
