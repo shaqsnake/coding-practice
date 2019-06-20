@@ -28,10 +28,15 @@ public:
 
     int size() const { return count; }
     bool empty() const { return count == 0; }
+    // Contain a key or not.
     bool contain(const K &key) const { return _contain(root, key); }
+    // Insert a new key-value into BST.
     void insert(const K &key, const V &value) {
         root = _insert(root, key, value);
     }
+    // Search by key, return its value if exists.
+    V *search(const K &key) const { return _search(root, key); }
+    // Print BST in a pretty format.
     void print_tree() const { _print_tree(root, "", false); }
 
 private:
@@ -41,6 +46,7 @@ private:
     void _destroy(Node<K, V> *node);
     bool _contain(Node<K, V> *node, const K &key) const;
     Node<K, V> *_insert(Node<K, V> *node, const K &key, const V &value);
+    V *_search(Node<K, V> *node, const K &key) const;
     void _print_tree(Node<K, V> *node, const std::string &prefix,
                      bool isLeft) const;
 };
@@ -67,6 +73,19 @@ bool BSTree<K, V>::_contain(Node<K, V> *node, const K &key) const {
         return _contain(node->left, key);
     else
         return _contain(node->right, key);
+}
+
+template <typename K, typename V>
+V *BSTree<K, V>::_search(Node<K, V> *node, const K &key) const {
+    if (node == nullptr)
+        return nullptr;
+
+    if (key == node->key)
+        return &node->value;
+    else if (key < node->key)
+        return _search(node->left, key);
+    else
+        return _search(node->right, key);
 }
 
 template <typename K, typename V>

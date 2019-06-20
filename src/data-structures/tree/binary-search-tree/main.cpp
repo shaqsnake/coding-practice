@@ -17,8 +17,10 @@ int main() {
 
     bst->print_tree();
 
-    cout << bst->contain("a") << endl;
-    cout << bst->contain("z") << endl;
+    if (bst->contain("a"))
+        cout << *bst->search("a") << endl;
+    if (bst->contain("z"))
+        cout << *bst->search("z") << endl;
 
     return 0;
 }
