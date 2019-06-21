@@ -15,7 +15,8 @@ template <typename K, typename V> class Node {
     }
 
 public:
-    Node(K k, V v) : key(k), value(v), left(nullptr), right(nullptr){};
+    Node(K k, V v) : key(k), value(v), left(nullptr), right(nullptr){}
+    Node(Node *node): key(node->key), value(node->value), left(node->left), right(node->right) {}
 
 private:
     K key;
@@ -61,6 +62,10 @@ public:
         if (root)
             root = _removeMax(root);
     }
+    void remove(const K &key) {
+        if (root)
+            root = _remove(root, key);
+    }
     // Print BST nodes by pre-order.
     void preOrder() const { _preOrder(root); }
     // Print BST nodes by in-order.
@@ -84,6 +89,7 @@ private:
     Node<K, V> *_findMax(Node<K, V> *node) const;
     Node<K, V> *_removeMin(Node<K, V> *node);
     Node<K, V> *_removeMax(Node<K, V> *node);
+    Node<K, V> *_remove(Node<K, V> *node, const K &key);
     void _preOrder(Node<K, V> *node) const;
     void _inOrder(Node<K, V> *node) const;
     void _postOrder(Node<K, V> *node) const;
@@ -184,6 +190,45 @@ Node<K, V> *BSTree<K, V>::_removeMax(Node<K, V> *node) {
     }
     node->right = _removeMax(node->right);
     return node;
+}
+
+template <typename K, typename V>
+Node<K, V> *BSTree<K, V>::_remove(Node<K, V> *node, const K &key) {
+    if (node == nullptr)
+        return node;
+
+    if (key < node->key) {
+        node->left = _remove(node->left, key);
+        return node;
+    } else if (key > node->key) {
+        node->right = _remove(node->right, key);
+        return node;
+    } else { // key == node->key
+        if (node->left == nullptr) {
+            auto rightChild = node->right;
+            delete node;
+            count--;
+            return rightChild;
+        }
+        
+        if (node->right == nullptr) {
+            auto leftChild = node->left;
+            delete node;
+            count--;
+            return leftChild;
+        }
+
+        auto successor = new Node<K, V>(_findMax(node->right));
+        count++;
+
+        successor->right = _removeMin(node->right);
+        successor->left = node->left;
+
+        delete node;
+        count--;
+
+        return successor;
+    }
 }
 
 template <typename K, typename V>

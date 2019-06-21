@@ -22,7 +22,6 @@ int main() {
         else
             bst->insert(word, 1);
     }
-    // bst->print_tree();
     if (bst->contain("voice"))
         cout << "['voice' : " << *bst->search("voice") << "]" << endl;
     else
@@ -31,6 +30,11 @@ int main() {
     time_t endTime = clock();
     cout << "BST time: " << double(endTime - startTime) / CLOCKS_PER_SEC
          << " s." << endl;
+
+    // bst->remove("young");
+    // bst->remove("yes");
+    // bst->remove("written");
+    // bst->print_tree();
 
     startTime = clock();
     sort(words.begin(), words.end());
