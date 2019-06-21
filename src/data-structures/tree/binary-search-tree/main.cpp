@@ -7,6 +7,7 @@ using namespace std;
 
 int main() {
     auto bst = make_shared<BSTree<string, int>>();
+    // auto bst = new BSTree<string, int>();
 
     bst->insert("c", 1);
     bst->insert("b", 2);
@@ -16,6 +17,12 @@ int main() {
     cout << bst->size() << endl;
 
     bst->print_tree();
+    cout << bst->findMin() << endl;
+    cout << bst->findMax() << endl;
+    bst->removeMin();
+    bst->removeMax();
+    bst->print_tree();
+    cout << bst->findMin() << endl;
 
     if (bst->contain("a"))
         cout << *bst->search("a") << endl;
@@ -30,6 +37,8 @@ int main() {
     cout << endl;
     bst->levelOrder();
     cout << endl;
+
+    // delete bst;
 
     return 0;
 }
