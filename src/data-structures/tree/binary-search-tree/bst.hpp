@@ -15,8 +15,10 @@ template <typename K, typename V> class Node {
     }
 
 public:
-    Node(K k, V v) : key(k), value(v), left(nullptr), right(nullptr){}
-    Node(Node *node): key(node->key), value(node->value), left(node->left), right(node->right) {}
+    Node(K k, V v) : key(k), value(v), left(nullptr), right(nullptr) {}
+    Node(Node *node)
+        : key(node->key), value(node->value), left(node->left),
+          right(node->right) {}
 
 private:
     K key;
@@ -210,7 +212,7 @@ Node<K, V> *BSTree<K, V>::_remove(Node<K, V> *node, const K &key) {
             count--;
             return rightChild;
         }
-        
+
         if (node->right == nullptr) {
             auto leftChild = node->left;
             delete node;
@@ -218,6 +220,7 @@ Node<K, V> *BSTree<K, V>::_remove(Node<K, V> *node, const K &key) {
             return leftChild;
         }
 
+        // node->left != nullptr && node->right != nullptr
         auto successor = new Node<K, V>(_findMax(node->right));
         count++;
 
