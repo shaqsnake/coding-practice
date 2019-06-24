@@ -9,8 +9,9 @@ public:
     };
     ~DisjointSetUnion() { delete[] parent; }
 
+    bool isConnected(int a, int b) { return find(a) == find(b); }
     void unite(int a, int b);
-    bool isConnected(int a, int b) { return parent[a] == parent[b]; }
+    int find(int x);
 
 private:
     int *parent;

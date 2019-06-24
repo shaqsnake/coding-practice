@@ -1,7 +1,7 @@
-#include <iostream>
-#include <ctime>
-#include <memory>
 #include "DisjointSetUnion.h"
+#include <ctime>
+#include <iostream>
+#include <memory>
 
 using namespace std;
 
@@ -26,7 +26,17 @@ int main() {
     }
     double elapsedTime = clock() - startTime;
 
-    cout << "Disjoint: " << 2*n << "ops, " << elapsedTime / CLOCKS_PER_SEC << "s" << endl;
+    cout << "Disjoint: " << 2 * n << "ops, " << elapsedTime / CLOCKS_PER_SEC
+         << "s" << endl;
+
+    // auto disjoint = make_shared<DisjointSetUnion>(10);
+    // disjoint->unite(1, 3);
+    // disjoint->unite(3, 5);
+    // disjoint->unite(5, 7);
+    // disjoint->unite(9, 1);
+    
+    // cout << disjoint->isConnected(1, 7) << endl;
+    // cout << disjoint->isConnected(1, 2) << endl;
 
     return 0;
 }
