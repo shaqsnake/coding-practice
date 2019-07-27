@@ -38,6 +38,7 @@
 |[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0279-Perfect-Squares/solution.cpp)|DFS|
 |[136. Single Number](https://leetcode.com/problems/single-number/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0136-Single-Number/solution.cpp)|Bitwise|
 |[137. Single Number II](https://leetcode.com/problems/single-number-ii/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0137-Single-Number-II/solution.cpp)|Bitwise|
+|[153. Find Minimum in Rotated Sorted Array](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0153-Find-Minimum-in-Rotated-Sorted-Array/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0153-Find-Minimum-in-Rotated-Sorted-Array/solution.cpp)|BinarySearch|
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0200-Number-of-Islands/solution.cpp)|DFS|
 |[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0201-Bitwise-AND-of-Numbers-Range/solution.cpp)|Bitwise|
 |[204. Count Primes](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0204-Count-Primes)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0204-Count-Primes/solution.cpp)|Primes|
