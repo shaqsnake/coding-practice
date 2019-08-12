@@ -1,22 +1,11 @@
-#coding=utf-8
-"""
-Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+'''
+@Author: shaqsnake
+@Email: shaqsnake@gmail.com
+@Date: 2019-05-09 13:47:55
+@LastEditTime: 2019-08-12 16:53:21
+@Description: 5. Longest Palindromic Substring
+'''
 
-Example:
-
-Input: "babad"
-
-Output: "bab"
-
-Note: "aba" is also a valid answer.
-
-
-Example:
-
-Input: "cbbd"
-
-Output: "bb"
-"""
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -40,7 +29,3 @@ class Solution(object):
                 max_length += 1
         # 返回最长的镜像substring
         return s[start:start+max_length]
-
-if __name__ == '__main__':
-    s = "babcba"
-    print(Solution().longestPalindrome(s))
