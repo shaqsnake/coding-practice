@@ -1,3 +1,11 @@
+<!--
+ * @Author: shaqsnake
+ * @Email: shaqsnake@gmail.com
+ * @Date: 2019-06-03 11:26:54
+ * @LastEditTime: 2019-08-13 15:32:52
+ * @Description: 208. Implement Trie (Prefix Tree)
+ -->
+
 Implement a trie with insert, search, and startsWith methods.
 
 Example:

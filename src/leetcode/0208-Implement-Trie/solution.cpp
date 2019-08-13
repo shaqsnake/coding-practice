@@ -1,50 +1,70 @@
-const int N = 100010;
+// Copyright (c) 2019 shaqsnake. All rights reserved.
+/**
+ * @Author: shaqsnake
+ * @Email: shaqsnake@gmail.com
+ * @Date: 2019-08-13 15:32:02
+ * @LastEditTime: 2019-08-13 16:16:21
+ * @Description: 208. Implement Trie (Prefix Tree)
+ */
+class Node {
+    friend class Trie;
+
+public:
+    Node() : isWord_(false) {
+        for (int i = 0; i < 26; i++)
+            ne_[i] = nullptr;
+    };
+    ~Node() = default;
+
+private:
+    Node *ne_[26];
+    bool isWord_;
+};
 
 class Trie {
 public:
     /** Initialize your data structure here. */
-    Trie() : idx(0) {
-        memset(chd, 0, sizeof(chd));
-        memset(cnt, false, sizeof(cnt));
-    }
+    Trie() : root_(new Node()) {}
 
     /** Inserts a word into the trie. */
     void insert(string word) {
-        int p = 0;
-        for (const auto &c : word) {
-            int u = c - 'a';
-            if (!chd[p][u])
-                chd[p][u] = ++idx;
-            p = chd[p][u];
+        auto p = root_;
+        for (auto const &w : word) {
+            int u = w - 'a';
+            if (!p->ne_[u]) p->ne_[u] = new Node();
+            p = p->ne_[u];
         }
-        cnt[p + 1] = true;
+        
+        p->isWord_ = true;
     }
 
     /** Returns if the word is in the trie. */
-    bool search(string word) { return cnt[find(word)]; }
+    bool search(string word) {
+        auto p = root_;
+        for (auto const &w : word) {
+            int u = w - 'a';
+            if (!p->ne_[u]) return false;
+            p = p->ne_[u];
+        }
+
+        return p->isWord_;
+    }
 
     /** Returns if there is any word in the trie that starts with the given
      * prefix. */
     bool startsWith(string prefix) {
-        if (find(prefix))
-            return true;
-        return false;
+        auto p = root_;
+        for (auto const &w : prefix) {
+            int u = w - 'a';
+            if (!p->ne_[u]) return false;
+            p = p->ne_[u];
+        }
+
+        return true;
     }
 
 private:
-    int chd[N][26];
-    bool cnt[N + 1];
-    int idx;
-    int find(string word) {
-        int p = 0;
-        for (const auto &c : word) {
-            int u = c - 'a';
-            if (!chd[p][u])
-                return 0;
-            p = chd[p][u];
-        }
-        return p + 1;
-    }
+    Node *root_;
 };
 
 /**
