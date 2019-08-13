@@ -1,14 +1,11 @@
-"""
-Given a string, find the length of the longest substring without repeating characters.
+'''
+@Author: shaqsnake
+@Email: shaqsnake@gmail.com
+@Date: 2019-05-09 13:47:55
+@LastEditTime: 2019-08-13 15:10:37
+@Description: 
+'''
 
-Examples:
-
-Given "abcabcbb", the answer is "abc", which the length is 3.
-
-Given "bbbbb", the answer is "b", with the length of 1.
-
-Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
-"""
 
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
@@ -25,7 +22,7 @@ class Solution(object):
                 cur = d[n] + 1
             else:
                 # calculate the longest substring
-                res = max(res, i-cur+1)
+                res = max(res, i - cur + 1)
             d[n] = i
         return res
 
@@ -40,17 +37,13 @@ class Solution(object):
         res = 0
 
         while l < len(s):
-            if r+1 < len(s) and f[ord(s[r+1])] == 0:
+            if r + 1 < len(s) and f[ord(s[r + 1])] == 0:
                 r += 1
                 f[ord(s[r])] += 1
             else:
                 f[ord(s[l])] -= 1
                 l += 1
-            
-            res = max(res, r-l+1)
+
+            res = max(res, r - l + 1)
 
         return res
-
-if __name__ == '__main__':
-    print(Solution().lengthOfLongestSubstring("tmmzuxt"))
-    print(Solution().lengthOfLongestSubstring2("abcabcbb"))
