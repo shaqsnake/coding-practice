@@ -1,16 +1,12 @@
-#coding=utf-8
-"""
-The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+'''
+@Author: shaqsnake
+@Email: shaqsnake@gmail.com
+@Date: 2019-05-09 13:47:55
+@LastEditTime: 2019-08-13 10:26:10
+@Description: 6. ZigZag Conversion
+'''
 
-P   A   H   N
-A P L S I I G
-Y   I   R
-And then read line by line: "PAHNAPLSIIGYIR"
-Write the code that will take a string and make this conversion given a number of rows:
 
-string convert(string text, int nRows);
-convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
-"""
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -33,12 +29,7 @@ class Solution(object):
             if cur == 0:
                 step = 1
             # 当指针抵达下界时折返
-            elif cur == numRows-1:
+            elif cur == numRows - 1:
                 step = -1
             cur += step
         return ('').join(L)
-
-
-if __name__ == '__main__':
-    s = "PAYPALISHIRING"
-    print(Solution().convert(s, 4))
