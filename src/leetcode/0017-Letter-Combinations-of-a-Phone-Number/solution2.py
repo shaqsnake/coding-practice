@@ -1,3 +1,10 @@
+'''
+@Author: shaqsnake
+@Email: shaqsnake@gmail.com
+@Date: 2019-05-09 13:47:55
+@LastEditTime: 2019-08-14 10:54:43
+@Description: 
+'''
 #coding=utf-8
 """
 Given a digit string, return all possible letter combinations that the number could represent.
@@ -66,7 +73,7 @@ class Solution(object):
         return reduce(lambda acc, digit: [x+y for x in acc for y in d[digit]], digits, [''])
 
     # 最简洁的写法
-    def letterCombinations_online(self, digits):
+    def letterCombinations_oneline(self, digits):
         """
         :type digits: str
         :rtype: List[str]
