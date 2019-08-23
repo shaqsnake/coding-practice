@@ -112,6 +112,7 @@
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|DFS/BFS|
 |[762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0762-Prime-Number-of-Set-Bits-in-Binary-Representation/solution.cpp)|Bitwise|
 |[773. Sliding Puzzle](https://github.com/shaqsnake/coding-practice/tree/master/src/leetcode/0773-Sliding-Puzzle/)|Hard|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0773-Sliding-Puzzle/solution.cpp)|BFS|
+|[918. Maximum Sum Circular Subarray](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0918-Maximum-Sum-Circular-Subarray/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0918-Maximum-Sum-Circular-Subarray/solution.cpp)|PreSum/Queue|
 |[929. Unique Email Addresses](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0929-Unique-Email-Addresses/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0929-Unique-Email-Addresses/solution.cpp)|String|
 
 ## Topcoder
