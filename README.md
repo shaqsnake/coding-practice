@@ -109,6 +109,7 @@
 |[493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0493-Reverse-Pairs/solution.cpp)|Mergesort|
 |[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|DFS|
 |[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0547-Friend-Circles/solution.cpp)|Union Find|
+|[652. Find Duplicate Subtrees](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0652-Find-Duplicate-Subtrees/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0652-Find-Duplicate-Subtrees/solution.cpp)|Tree/DFS/HashMap|
 |[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0703-Kth-Largest-Element-in-a-Stream/solution.cpp)|Heap/Priority Q|
 |[706. Design HashMap](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0706-Design-HashMap/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0706-Design-HashMap/solution.cpp)|Hash/Map|
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0733-Flood-Fill/solution.cpp)|DFS/BFS|
