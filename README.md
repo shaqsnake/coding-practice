@@ -45,6 +45,7 @@
 |[53. Maximum Subarray](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0053-Maximum-Subarray)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0053-Maximum-Subarray/solution.cpp)|Iteration|
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0056-Merge-Intervals/solution.cpp)|Sort|
 |[61. Rotate List](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0061-Rotate-List/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0061-Rotate-List/solution.cpp)|Linked List|
+|[63. Unique Paths II](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0063-Unique-Paths-II/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0063-Unique-Paths-II/solution.cpp)|DP|
 |[64. Minimum Path Sum](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0064-Minimum-Path-Sum/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0064-Minimum-Path-Sum/solution.cpp)|DP|
 |[66. Plus One](https://leetcode.com/problems/plus-one/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0066-Plus-One/solution.cpp)|Big num op|
 |[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0069-Sqrt(x)/solution.cpp)|Binary Search|
