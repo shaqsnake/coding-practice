@@ -3,7 +3,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-08 15:20:36
- * @LastEditTime: 2019-09-09 09:54:55
+ * @LastEditTime: 2019-09-14 10:11:27
  * @Description: 300. Longest Increasing Subsequence
  */
 
@@ -15,7 +15,7 @@ public:
         
         for (int i = 0; i < n; i++) {
             f[i] = 1;
-            for (int j = 0; j <= i; j++)
+            for (int j = 0; j < i; j++)
                 if (nums[i] > nums[j]) f[i] = max(f[i], f[j] + 1);
         }
 
