@@ -116,6 +116,7 @@
 |[476. Number Complement](https://leetcode.com/problems/number-complement/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0476-Number-Complement/solution.cpp)|Bitwise|
 |[477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0477-Total-Hamming-Distance/solution.cpp)|Bitwise|
 |[493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0493-Reverse-Pairs/solution.cpp)|Mergesort|
+|[518. Coin Change 2](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0518-Coin-Change-2/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0518-Coin-Change-2/solution.cpp)|DP|
 |[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0543-Diameter-of-Binary-Tree/solution.cpp)|DFS|
 |[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0547-Friend-Circles/solution.cpp)|Union Find|
 |[560. Subarray Sum Equals K](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0560-Subarray-Sum-Equals-K/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0560-Subarray-Sum-Equals-K/solution.cpp)|PreSum / HashMap|
