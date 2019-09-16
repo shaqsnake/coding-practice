@@ -2,7 +2,7 @@
 
 ## Data Structures and Algorithms
 
-|Algorithms|Code|Comments|
+|Algorithm|Code|Comment|
 |:-|:-|:-|
 |Bubble Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/BubbleSort.h)||
 |Selection Sort|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/algorithms/sort/SelectionSort.h)||
@@ -13,19 +13,20 @@
 |Heap Sort|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/algorithms/sort/HeapSort.h)||
 
 
-|Data Structures|Code|Comments|
+|Data Structure|Code|Comment|
 |:-|:-|:-|
 |Heap|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/data-structures/heap/Heap.hpp)||
 |IndexHeap|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/data-structures/heap/IndexHeap.hpp)||
 
 ## Leetcode
 
-|Problems|Difficulty|Solutions|Comments|
+|Solution|Difficulty|Code|Comment|
 |:-|:-|:-|:-|
 |[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.cpp) / [Go](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0001-Two-Sum/solution.go)|HashMap|
 |[3. Longest Substring Without Repeating Characters](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0003-Longest-Substring-Without-Repeating-Characters/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0003-Longest-Substring-Without-Repeating-Characters/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0003-Longest-Substring-Without-Repeating-Characters/solution.cpp)|String/Doubel Pointer|
 |[5. Longest Palindromic Substring](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0005-Longest-Palindromic-Substring/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0005-Longest-Palindromic-Substring/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0005-Longest-Palindromic-Substring/solution.cpp)|String|
 |[6. ZigZag Conversion](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0006-ZigZag-Conversion/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0006-ZigZag-Conversion/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0006-ZigZag-Conversion/solution.cpp)|String|
+|[10. Regular Expression Matching](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0010-Regular-Expression-Matching/)|Hard|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0010-Regular-Expression-Matching/solution.cpp)|DP|
 |[17. Letter Combinations of a Phone Number](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0017-Letter-Combinations-of-a-Phone-Number/)|Medium|[Python](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0017-Letter-Combinations-of-a-Phone-Number/solution.py) / [C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0017-Letter-Combinations-of-a-Phone-Number/solution.cpp)|DFS|
 |[19. Remove Nth Node From End of List](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0019-Remove-Nth-Node-From-End-of-List/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0019-Remove-Nth-Node-From-End-of-List/solution.cpp)|Linked List/Double Pointers|
 |[24. Swap Nodes in Pairs](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0024-Swap-Nodes-in-Pairs/)|Medium|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0024-Swap-Nodes-in-Pairs/solution.cpp)|Linked List|
@@ -132,12 +133,12 @@
 |[929. Unique Email Addresses](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0929-Unique-Email-Addresses/)|Easy|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/leetcode/0929-Unique-Email-Addresses/solution.cpp)|String|
 
 ## Topcoder
-|Problems|Solutions|Comments|
+|Solution|Code|Comment|
 |:-|:-|:-|
 |[ABBA](https://arena.topcoder.com/#/u/practiceCode/16527/48825/13918/2/326683)|[C++](https://github.com/shaqsnake/leetcode/blob/master/src/topcoder/ABBA/solution.cpp)||
 
 ## Tedukuri
-|Problems|Solutions|Comments|
+|Solution|Code|Comment|
 |:-|:-|:-|
 |[CH0102 64位整数乘法](https://bit.ly/30zYpFJ)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0102/solution.cpp)|Bitwise|
 |[CH0103 最短Hamilton路径](https://bit.ly/2QcLjth)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0103/solution.cpp)|DP/Bitwise|
@@ -147,7 +148,7 @@
 |[CH0303 递归实现排列型枚举](https://bit.ly/2YGGrPW)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/tedukuri/0x00/CH0303/solution.cpp)|Recursion/Back tracing/State compression|
 
 ## POJ
-|Problems|Solutions|Comments|
+|Solution|Code|Comment|
 |:-|:-|:-|
 |[1852-Ants](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1852-Ants)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1852-Ants/solution.cpp)|Enum|
 |[1958-Strange-Towers-of-Hanoi](https://github.com/shaqsnake/coding-practice/tree/master/src/poj/1958-Strange-Towers-of-Hanoi)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/poj/1958-Strange-Towers-of-Hanoi/solution.cpp)|DP|
