@@ -158,3 +158,8 @@
 |3617|||
 |3069|||
 |3253|||
+
+## Acwing
+|Solution|AC Code|Comment|
+|:-|:-|:-|
+|[0905-区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
