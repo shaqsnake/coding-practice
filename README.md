@@ -162,6 +162,7 @@
 ## Acwing
 |Solution|AC Code|Comment|
 |:-|:-|:-|
+|[148. 合并果子](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/solution.cpp)|Greedy|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
