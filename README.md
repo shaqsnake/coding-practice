@@ -163,4 +163,5 @@
 |Solution|AC Code|Comment|
 |:-|:-|:-|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
+|[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[908. 最大不相交区间数量](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/solution.cpp)|Greedy|
