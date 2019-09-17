@@ -2,7 +2,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-17 14:59:09
+ * @LastEditTime: 2019-09-17 17:57:59
  * @Description: Acwing 906
  -->
 
@@ -26,7 +26,7 @@
 
 #### 数据范围
 
-![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20N%20\leq%2010^{9})
+![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20N%20\leq%2010^{5})
 
 ![](http://latex.codecogs.com/gif.latex?\\-10^{9}%20\leq%20a_{i}%20\leq%20b_{i}%20\leq%2010^{9})
 
@@ -47,7 +47,7 @@
 
 ## 题解
 
-### 贪心算法 O(n)
+### 贪心算法 O(nlogn)
 
 1. 先按所有区间的左端点从小到大进行排序；
 2. 遍历所有区间，判断当前区间是否可以放到一个组中（与组中最右的端点无交集），此时有两种情况：

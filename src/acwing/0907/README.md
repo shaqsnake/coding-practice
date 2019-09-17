@@ -2,7 +2,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-17 16:32:55
+ * @LastEditTime: 2019-09-17 17:57:41
  * @Description: Acwing 906
  -->
 
@@ -30,7 +30,7 @@
 
 #### 数据范围
 
-![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20N%20\leq%2010^{9})
+![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20N%20\leq%2010^{5})
 
 ![](http://latex.codecogs.com/gif.latex?\\-10^{9}%20\leq%20a_{i}%20\leq%20b_{i}%20\leq%2010^{9})
 
@@ -54,7 +54,7 @@
 
 ## 题解
 
-### 贪心算法 O(n)
+### 贪心算法 O(nlogn)
 
 1. 先按所有区间的左端点从小到大进行排序；
 2. 遍历所有区间，每轮找出可以覆盖目标且右端点最大的区间，用此区间的右端点更新目标的左端点；
