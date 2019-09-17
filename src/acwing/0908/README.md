@@ -2,7 +2,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-17 11:22:30
+ * @LastEditTime: 2019-09-17 14:45:47
  * @Description: Acwing 908
  -->
 
@@ -22,7 +22,7 @@
 
 #### 输出格式
 
-输出一个整数，表示所需的点的最小数量。
+输出一个整数，表示可选取区间的最大数量。
 
 #### 数据范围
 
