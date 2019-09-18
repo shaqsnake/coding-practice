@@ -167,3 +167,4 @@
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
 |[908. 最大不相交区间数量](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/solution.cpp)|Greedy|
+|[913. 排队打水](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/solution.cpp)|Greedy|
