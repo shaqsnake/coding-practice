@@ -3,11 +3,10 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-19 10:57:01
- * @LastEditTime: 2019-09-19 11:20:44
+ * @LastEditTime: 2019-09-19 14:50:09
  * @Description: Acwing 1018
  */
 
-#include <cstring>
 #include <iostream>
 
 using namespace std;
@@ -22,10 +21,11 @@ int main() {
         for (int j = 0; j < n; j++)
             cin >> w[i][j];
 
-    memset(f, 0x3f, sizeof f);
-    f[0][0] = w[0][0];
     for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++) {a
+        for (int j = 0; j < n; j++) {
+            f[i][j] = 1e9;
+            if (!i && !j)
+                f[i][j] = w[i][j];
             if (i > 0)
                 f[i][j] = min(f[i][j], f[i - 1][j] + w[i][j]);
             if (j > 0)
