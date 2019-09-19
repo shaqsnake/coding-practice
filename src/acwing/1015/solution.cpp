@@ -3,10 +3,10 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-18 19:04:24
- * @LastEditTime: 2019-09-19 14:46:11
+ * @LastEditTime: 2019-09-19 14:49:39
  * @Description: Acwing 1015
  */
-#include <cstring>
+
 #include <iostream>
 
 using namespace std;
