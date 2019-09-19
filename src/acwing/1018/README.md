@@ -2,11 +2,11 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-19 11:05:05
+ * @LastEditTime: 2019-09-19 17:18:22
  * @Description: Acwing 1018
  -->
 
-# 913. 排队打水
+# 1018. 最低通行费
 
 ## 题目
 

@@ -2,11 +2,11 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-18 19:11:06
+ * @LastEditTime: 2019-09-19 17:18:30
  * @Description: Acwing 1015
  -->
 
-# 913. 排队打水
+# 1015. 摘花生
 
 ## 题目
 
