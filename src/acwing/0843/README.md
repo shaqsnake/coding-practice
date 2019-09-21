@@ -2,11 +2,11 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-20 18:37:13
+ * @LastEditTime: 2019-09-21 09:43:36
  * @Description: Acwing 843
  -->
 
-# 842. 排列数字
+# 843. n-皇后问题
 
 ## 题目
 

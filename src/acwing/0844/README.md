@@ -2,11 +2,11 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-21 08:56:09
- * @Description: Acwing 1027
+ * @LastEditTime: 2019-09-21 09:43:12
+ * @Description: Acwing 844
  -->
 
-# 842. 排列数字
+# 844. 走迷宫
 
 ## 题目
 
