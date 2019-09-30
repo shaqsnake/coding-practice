@@ -2,7 +2,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-09-30 18:20:31
+ * @LastEditTime: 2019-09-30 18:22:19
  * @Description: Acwing 847
  -->
 
@@ -51,4 +51,4 @@
 
 ### BFS
 
-此题求最短路径所以考虑用BFS，最后要输出路径的距离，所以需要一个额外的空间来保存路径的长度。
+此题有向图的边权重为1，求最短路径所以考虑用BFS，最后要输出路径的距离，所以需要一个额外的空间来保存路径的长度。
