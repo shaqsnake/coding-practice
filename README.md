@@ -168,6 +168,7 @@
 |[842. 排列数字](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/solution.cpp)|DFS|
 |[843. n-皇后问题](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/solution.cpp)|DFS|
 |[844. 走迷宫](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0844/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0844/solution.cpp)|DFS|
+|[845. 八数码](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0845/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0845/solution.cpp)|BFS|
 |[846. 树的重心](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0846/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0846/solution.cpp)|DFS|
 |[847. 图中点的层次](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0847/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0847/solution.cpp)|BFS|
 |[848. 有向图的拓扑序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0848/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0848/solution.cpp)|BFS|
