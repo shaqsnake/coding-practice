@@ -173,8 +173,7 @@
 |[847. 图中点的层次](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0847/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0847/solution.cpp)|BFS|
 |[848. 有向图的拓扑序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0848/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0848/solution.cpp)|BFS|
 |[849. Dijkstra求最短路 I](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0849/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0849/solution.cpp)|Graph/Dijkstra|
-|[850. Dijkstra求最短路 II](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0850/)|[C++]
-(https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0850/solution.cpp)|Graph/Dijkstra/Heap|
+|[850. Dijkstra求最短路 II](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0850/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0850/solution.cpp)|Graph/Dijkstra/Heap|
 |[853. 有边数限制的最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/solution.cpp)|Graph/Bellman-Ford|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
