@@ -177,6 +177,7 @@
 |[851. spfa求最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0851/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0851/solution.cpp)|Graph/Spfa/Queue|
 |[852. spfa判断负环](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0852/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0852/solution.cpp)|Graph/Spfa/Queue|
 |[853. 有边数限制的最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/solution.cpp)|Graph/Bellman-Ford|
+|[854. Floyd求最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0854/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0854/solution.cpp)|Graph/Floyd/DP|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
