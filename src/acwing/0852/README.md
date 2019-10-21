@@ -2,7 +2,7 @@
  * @Author: shaqsnake
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
- * @LastEditTime: 2019-10-21 11:14:57
+ * @LastEditTime: 2019-10-21 11:55:06
  * @Description: Acwing 852
  -->
 
@@ -54,3 +54,5 @@ Yes
 此题有负权边，所以首先考虑spfa算法，可以参考[851. spfa求最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0851/)。
 
 需注意此题是要判断是否存在负环，所以在[851. spfa求最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0851/)的基础上需要一个额外的数组cnt[1..n]来记录起点到每个点的最短路径中边的个数，在spfa松弛过程中可以根据条件 cnt[j] >= n 来判断是否存在负环，因为n个点的最短路径的长度一旦大于等于n，说明这条路径上一共有n + 1个点，那么就一定存在一个环，且因为这个环是在松弛过程中发现的，所以这个环一定是一个负环。
+
+注：此题是求所有路径中是否包括负环，所以在队列初始化阶段需要将所有点都放入队列中。
