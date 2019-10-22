@@ -179,6 +179,7 @@
 |[853. 有边数限制的最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0853/solution.cpp)|Graph/Bellman-Ford|
 |[854. Floyd求最短路](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0854/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0854/solution.cpp)|Graph/Floyd/DP|
 |[858. Prim算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/solution.cpp)|Graph/MST/Prim|
+|[859. Kruskal算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/solution.cpp)|Graph/MST/Kruskal|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
