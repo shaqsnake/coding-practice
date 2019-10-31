@@ -3,10 +3,10 @@
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
  * @LastEditTime: 2019-10-22 11:46:57
- * @Description: Acwing 859
+ * @Description: Acwing 860
  -->
 
-# 859. Kruskal算法求最小生成树
+# 860. 染色法判定二分图
 
 ## 题目
 
@@ -26,7 +26,7 @@
 
 #### 数据范围
 
-![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20n,m%20\leq%202\times10^5),
+![](http://latex.codecogs.com/gif.latex?\\1%20\leq%20n,m%20\leq%2010^5),
 
 #### 输入样例：
 
