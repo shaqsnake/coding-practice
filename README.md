@@ -181,6 +181,7 @@
 |[858. Prim算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/solution.cpp)|Graph/MST/Prim|
 |[859. Kruskal算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/solution.cpp)|Graph/MST/Kruskal|
 |[860. 染色法判定二分图](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0860/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0860/solution.cpp)|Graph/DFS|
+|[895. 最长上升子序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/solution.cpp)|DP|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
