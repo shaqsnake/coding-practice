@@ -188,5 +188,6 @@
 |[908. 最大不相交区间数量](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/solution.cpp)|Greedy|
 |[913. 排队打水](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/solution.cpp)|Greedy|
 |[1015. 摘花生](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1015/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1015/solution.cpp)|DP|
+|[1017. 怪盗基德的滑翔翼](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/solution.cpp)|DP|
 |[1018. 最低通行费](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/solution.cpp)|DP|
 |[1027. 方格取数](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/solution.cpp)|DP|
