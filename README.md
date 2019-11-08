@@ -165,6 +165,7 @@
 |[104. 货仓选址](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/solution.cpp)|Greedy|
 |[125. 耍杂技的牛](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/solution.cpp)|Greedy|
 |[148. 合并果子](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/solution.cpp)|Greedy|
+|[482. 合唱队形](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/solution.cpp)|DP/LIS|
 |[842. 排列数字](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/solution.cpp)|DFS|
 |[843. n-皇后问题](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/solution.cpp)|DFS|
 |[844. 走迷宫](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0844/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0844/solution.cpp)|DFS|
@@ -181,14 +182,15 @@
 |[858. Prim算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0858/solution.cpp)|Graph/MST/Prim|
 |[859. Kruskal算法求最小生成树](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0859/solution.cpp)|Graph/MST/Kruskal|
 |[860. 染色法判定二分图](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0860/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0860/solution.cpp)|Graph/DFS|
-|[895. 最长上升子序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/solution.cpp)|DP|
+|[895. 最长上升子序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0895/solution.cpp)|DP/LIS|
 |[905. 区间选点](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0905/solution.cpp)|Greedy|
 |[906. 区间分组](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0906/solution.cpp)|Greedy|
 |[907. 区间覆盖](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0907/solution.cpp)|Greedy|
 |[908. 最大不相交区间数量](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0908/solution.cpp)|Greedy|
 |[913. 排队打水](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0913/solution.cpp)|Greedy|
+|[1014. 登山](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1012/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1012/solution.cpp)|DP/LIS|
+|[1014. 登山](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1014/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1014/solution.cpp)|DP/LIS|
 |[1015. 摘花生](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1015/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1015/solution.cpp)|DP|
-|[1014. 登山](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1014/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1014/solution.cpp)|DP|
-|[1017. 怪盗基德的滑翔翼](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/solution.cpp)|DP|
+|[1017. 怪盗基德的滑翔翼](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/solution.cpp)|DP/LIS|
 |[1018. 最低通行费](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/solution.cpp)|DP|
 |[1027. 方格取数](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/solution.cpp)|DP|
