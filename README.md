@@ -165,6 +165,7 @@
 |[104. 货仓选址](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/solution.cpp)|Greedy|
 |[125. 耍杂技的牛](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/solution.cpp)|Greedy|
 |[148. 合并果子](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/solution.cpp)|Greedy|
+|[187. 导弹防御系统](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0187/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0187/solution.cpp)|DFS/Greedy|
 |[482. 合唱队形](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/solution.cpp)|DP/LIS|
 |[842. 排列数字](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/solution.cpp)|DFS|
 |[843. n-皇后问题](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0843/solution.cpp)|DFS|
