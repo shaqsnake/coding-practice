@@ -51,3 +51,18 @@
 ## 题解
 
 ### DP
+
+此题是[最长公共子序列(LCS)](https://github.com/shaqsnake/coding-practice/tree/master/src/acwing/0897)和[最长上升子序列(LIS)](https://github.com/shaqsnake/coding-practice/tree/master/src/acwing/0895)两个问题的综合。
+
+用二维数组f[1..n][1..m]来表示a[1..n]和b[1..m]两个序列的最长公共上升子序列(LCIS)的长度，其中f[i][j]就表示以a[i]和b[j]结尾的最长公共子序列的长度。
+假设最长公共子序的总以b[j]结尾，状态的划分可以先分成两种情况：
+
+1. a[i] != b[j], 此时不选择计算f[i][j]时不考虑a[i]，那么f[i][j]的值可由f[i-1][j]推导出来;
+2. a[i] == b[j], 此时构成了新的公共子序列，但是此题要求的公共子序列是单调上升的，所以状态还需进一步进行划分：
+    b[j]作为新的公共子序列的最后一个元素，需要与前面j个元素依次比较，最终确定b[j]的前一个元素b[k]的位置，从而f[i][j]的值就可以由f[i=1][k] + 1推导而来。
+
+最终状态转移方程为：
+```
+f[i][j] = f[i-1][j]        if a[i] != b[j]
+f[i][j] = f[i-1][k] + 1    if a[i] == b[j] and b[k] < b[j], 且 1 <= k < j
+```
