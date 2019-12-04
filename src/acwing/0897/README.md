@@ -3,10 +3,10 @@
  * @Email: shaqsnake@gmail.com
  * @Date: 2019-09-16 15:58:00
  * @LastEditTime: 2019-10-22 11:46:57
- * @Description: Acwing 895
+ * @Description: Acwing 897
  -->
 
-# 895. 最长上升子序列
+# 897. 最长公共子序列
 
 ## 题目
 
