@@ -166,6 +166,7 @@
 |[3. 完全背包问题](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0003/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0003/solution3.cpp)|DP|
 |[4. 多重背包问题 I](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0004/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0004/solution.cpp)|DP|
 |[5. 多重背包问题 II](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0005/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0005/solution.cpp)|DP|
+|[6. 多重背包问题 III](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0006/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0006/solution.cpp)|DP|
 |[104. 货仓选址](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0104/solution.cpp)|Greedy|
 |[125. 耍杂技的牛](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0125/solution.cpp)|Greedy|
 |[148. 合并果子](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0148/solution.cpp)|Greedy|
