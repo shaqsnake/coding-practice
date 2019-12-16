@@ -205,5 +205,6 @@
 |[1016. 最大上升子序列和](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1016/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1016/solution.cpp)|DP/LIS|
 |[1017. 怪盗基德的滑翔翼](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1017/solution.cpp)|DP/LIS|
 |[1018. 最低通行费](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1018/solution.cpp)|DP|
+|[1022. 宠物小精灵之收服](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1022/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1022/solution.cpp)|DP|
 |[1024. 装箱问题](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1024/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1024/solution.cpp)|DP|
 |[1027. 方格取数](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/1027/solution.cpp)|DP|
