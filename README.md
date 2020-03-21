@@ -174,6 +174,7 @@
 |[154. 滑动窗口](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0154/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0154/solution.cpp)|DP|
 |[187. 导弹防御系统](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0187/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0187/solution.cpp)|DFS/Greedy|
 |[272. 最长公共上升子序列](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0272/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0272/solution.cpp)|DFS/LCIS|
+|[278. 数字组合](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0278/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0278/solution2.cpp)|DFS/LCIS|
 |[423. 采药](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0423/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0423/solution.cpp)|DP|
 |[482. 合唱队形](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0482/solution.cpp)|DP/LIS|
 |[842. 排列数字](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/)|[C++](https://github.com/shaqsnake/coding-practice/blob/master/src/acwing/0842/solution.cpp)|DFS|
