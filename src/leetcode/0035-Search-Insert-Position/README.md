@@ -1,10 +1,5 @@
-<!--
- * @Author: shaqsnake
- * @Email: shaqsnake@gmail.com
- * @Date: 2019-07-25 20:50:07
- * @LastEditTime: 2019-07-25 20:50:36
- * @Description: 
- -->
+## 题目
+
 Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
 You may assume no duplicates in the array.
@@ -29,3 +24,7 @@ Example 4:
 Input: [1,3,5,6], 0
 Output: 0
 ```
+
+## 题解
+
+此题是经典的二分查找，套用模板即可。
