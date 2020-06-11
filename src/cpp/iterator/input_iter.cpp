@@ -17,11 +17,15 @@ public:
 
         explicit iterator(istream& is) noexcept
             : stream_(&is) {
-                // ++*this;
+                ++*this;
             }
 
         reference operator*() const noexcept {
             return line_;
+        }
+
+        pointer operator->() const noexcept {
+            return &line_;
         }
 
         iterator& operator++() {
@@ -30,6 +34,12 @@ public:
                 stream_ = nullptr;
             }
             return *this;
+        }
+
+        iterator operator++(int) {
+            iterator temp(*this);
+            ++*this;
+            return temp;
         }
 
         bool operator==(const iterator& rhs) const noexcept {
