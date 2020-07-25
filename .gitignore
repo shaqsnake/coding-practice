@@ -25,3 +25,4 @@ src/**/Makefile
 
 # Local history
 .history
+src/cpp/cpprest/client
