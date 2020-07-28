@@ -27,5 +27,9 @@ else(WIN32)
 endif(WIN32)
 
 add_executable(client      client.cpp)
+add_executable(client_save client_save.cpp)
+add_executable(test_json   test_json.cpp)
 
 target_link_libraries(client      PRIVATE ${USED_LIBS})
+target_link_libraries(client_save PRIVATE ${USED_LIBS})
+target_link_libraries(test_json   PRIVATE ${USED_LIBS})

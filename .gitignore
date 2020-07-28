@@ -26,3 +26,6 @@ src/**/Makefile
 # Local history
 .history
 src/cpp/cpprest/client
+src/cpp/cpprest/results.html
+src/cpp/cpprest/client_save
+src/cpp/cpprest/test_json
