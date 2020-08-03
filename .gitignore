@@ -30,3 +30,4 @@ src/cpp/cpprest/results.html
 src/cpp/cpprest/client_save
 src/cpp/cpprest/test_json
 src/cpp/cpprest/server
+src/cpp/coroutines/manual_iteration/test_fibonacci
